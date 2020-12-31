@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://robertnemet.netlify.app/posts/</loc>
+    <loc>https://rnemet.dev/posts/</loc>
   </url>
   
   <url>
-    <loc>https://robertnemet.netlify.app/about/</loc>
+    <loc>https://rnemet.dev/about/</loc>
   </url>
   
   <url>
-    <loc>https://robertnemet.netlify.app/</loc>
+    <loc>https://rnemet.dev/</loc>
   </url>
   
   <url>
-    <loc>https://robertnemet.netlify.app/categories/</loc>
+    <loc>https://rnemet.dev/categories/</loc>
   </url>
   
   <url>
-    <loc>https://robertnemet.netlify.app/contact/</loc>
+    <loc>https://rnemet.dev/contact/</loc>
   </url>
   
   <url>
-    <loc>https://robertnemet.netlify.app/tags/</loc>
+    <loc>https://rnemet.dev/tags/</loc>
   </url>
   
 </urlset>
