@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on DevCube</title>
-    <link>https://rnemet.dev/posts/</link>
-    <description>Recent content in Posts on DevCube</description>
+    <title>shell on DevCube</title>
+    <link>https://rnemet.dev/tags/shell/</link>
+    <description>Recent content in shell on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rnemet.dev/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to rename multiple files</title>
       <link>https://rnemet.dev/posts/rename_files/</link>
@@ -16,15 +16,6 @@
  Rename files with extension xyz which names ends with file. They need to start with document- and have extension txt For example if a file is 1-file.xyz it should be renamed to document-1.txt
  From this:
 &amp;gt; ls -al total 0 drwxr-xr-x 12 owner staff 384 Jan 1 19:26 . drwxr-xr-x 7 owner staff 224 Oct 23 11:32 .. -rw-r--r-- 1 owner staff 0 Jan 1 19:26 1-file.</description>
-    </item>
-    
-    <item>
-      <title>My 1st post</title>
-      <link>https://rnemet.dev/posts/post_template/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://rnemet.dev/posts/post_template/</guid>
-      <description></description>
     </item>
     
   </channel>
