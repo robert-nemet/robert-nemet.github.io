@@ -18,14 +18,5 @@
 &amp;gt; ls -al total 0 drwxr-xr-x 12 owner staff 384 Jan 1 19:26 . drwxr-xr-x 7 owner staff 224 Oct 23 11:32 .. -rw-r--r-- 1 owner staff 0 Jan 1 19:26 1-file.</description>
     </item>
     
-    <item>
-      <title>My 1st post</title>
-      <link>https://rnemet.dev/posts/post_template/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://rnemet.dev/posts/post_template/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
