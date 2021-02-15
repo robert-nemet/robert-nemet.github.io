@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rnemet.dev/posts/schedule_tasks/</loc>
+    <lastmod>2021-02-15T11:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rnemet.dev/posts/rename_files/</loc>
     <lastmod>2021-01-01T11:30:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rnemet.dev/posts/</loc>
-    <lastmod>2021-01-01T11:30:03+00:00</lastmod>
+    <lastmod>2021-02-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
@@ -18,21 +23,26 @@
   
   <url>
     <loc>https://rnemet.dev/</loc>
-    <lastmod>2021-01-01T11:30:03+00:00</lastmod>
+    <lastmod>2021-02-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rnemet.dev/tags/cli/</loc>
-    <lastmod>2021-01-01T11:30:03+00:00</lastmod>
+    <loc>https://rnemet.dev/tags/automation/</loc>
+    <lastmod>2021-02-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rnemet.dev/tags/shell/</loc>
-    <lastmod>2021-01-01T11:30:03+00:00</lastmod>
+    <lastmod>2021-02-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rnemet.dev/tags/</loc>
+    <lastmod>2021-02-15T11:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rnemet.dev/tags/cli/</loc>
     <lastmod>2021-01-01T11:30:03+00:00</lastmod>
   </url>
   

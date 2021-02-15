@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automation on DevCube</title>
+    <link>https://rnemet.dev/tags/automation/</link>
+    <description>Recent content in automation on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Feb 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rnemet.dev/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to schedule task with crontab</title>
+      <link>https://rnemet.dev/posts/schedule_tasks/</link>
+      <pubDate>Mon, 15 Feb 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://rnemet.dev/posts/schedule_tasks/</guid>
+      <description>I&amp;rsquo;m keeping notes in simple text files. Imho, this is a straightforward solution that I can control. I need to be able to version my changes and to keep backup as well. For that, I&amp;rsquo;m using git. But I have to make commits and push changes periodically. I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the crontab.
+Crontab ..is a file used by cron. It is a time-based job scheduler available in Unix-like OS.</description>
+    </item>
+    
+  </channel>
+</rss>
