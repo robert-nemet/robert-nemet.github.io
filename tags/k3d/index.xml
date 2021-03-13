@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>k3d on DevCube</title>
+    <link>https://rnemet.dev/tags/k3d/</link>
+    <description>Recent content in k3d on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Mar 2021 22:40:14 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/k3d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes in the bottle: k3d and k3s</title>
+      <link>https://rnemet.dev/posts/k3d/</link>
+      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/posts/k3d/</guid>
+      <description>Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with. But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.
+What is k3s The K3s is lightweight k8s by the rancher for Linux. K3s is intended to work with low resources and IoT devices.</description>
+    </item>
+    
+  </channel>
+</rss>
