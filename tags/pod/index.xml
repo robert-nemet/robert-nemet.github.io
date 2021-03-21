@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pod on DevCube</title>
+    <link>https://rnemet.dev/tags/pod/</link>
+    <description>Recent content in pod on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 Mar 2021 10:17:02 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/pod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pod</title>
+      <link>https://rnemet.dev/posts/k8s/pod/</link>
+      <pubDate>Sun, 21 Mar 2021 10:17:02 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/posts/k8s/pod/</guid>
+      <description>..is the smallest deployable unit one can create and manage inside Kubernetes(K8s). A Pod can have one or more running containers, so it is a set of running containers.
+What is a container? A container image is a binary containing an application you created and all that needs for its running like system and application libraries, configuration files, etc. When you run a container image it becomes container. You can imagine a container image as a software-package but when you run it becomes container.</description>
+    </item>
+    
+  </channel>
+</rss>
