@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on DevCube</title>
     <link>https://rnemet.dev/tags/</link>
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Mar 2021 10:17:02 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 13:42:10 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4devs</title>
+      <link>https://rnemet.dev/tags/4devs/</link>
+      <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/tags/4devs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>basics</title>
+      <link>https://rnemet.dev/tags/basics/</link>
+      <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/tags/basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://rnemet.dev/tags/docker/</link>
+      <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker-compose</title>
+      <link>https://rnemet.dev/tags/docker-compose/</link>
+      <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>k8s</title>
       <link>https://rnemet.dev/tags/k8s/</link>

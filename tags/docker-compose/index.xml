@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>docker-compose on DevCube</title>
+    <link>https://rnemet.dev/tags/docker-compose/</link>
+    <description>Recent content in docker-compose on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Jan 2022 13:42:10 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro docker-compose</title>
+      <link>https://rnemet.dev/posts/docker/compose-intro/</link>
+      <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/compose-intro/</guid>
+      <description>Working with containers is a necessity today for developers. You will likely need to work with some kind of storage or interact with some external service, like Solr or Postgres.
+You can install the required service on your local machine, which comes with the burden of choosing the correct installation, configuration, etc&amp;hellip; Nothing too complicated but takes time.
+Docker and Containers In short, the container is an isolated process on the host machine.</description>
+    </item>
+    
+  </channel>
+</rss>
