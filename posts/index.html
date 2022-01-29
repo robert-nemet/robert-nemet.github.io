@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://rnemet.dev/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.91.2">
+<meta name=generator content="Hugo 0.92.0">
 <link rel=alternate type=application/rss+xml href=https://rnemet.dev/posts/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -81,6 +81,22 @@
 <figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
 </figure>
 <header class=entry-header>
+<h2>Docker-Compose: what every developer needs to know
+</h2>
+</header>
+<section class=entry-content>
+<p>If you are developing microservices, docker-compose(compose), can be a very powerful tool. Think of a case with an API service and database. Creating and maintaining a database with the use of the Liquibase.
+Initial plan …would be:
+start DB run the Liquibase to make changes start an app Adding docker-compose as a driver to utilize this process:
+var config = { startOnLoad:true, theme:'neutral', align:'left' }; mermaid.initialize(config); sequenceDiagram autonumber Docker -- PostgresDB: start PostgresDB -- PostgresDB: wait to finish start PostgresDB -- Docker: done Docker -- LiquibasePG: start LiquibasePGDB -- PostgresDB: execute changeLog LiquibasePGDB -- Docker: done Docker -- Echo: start PostgresDB Setup This is the simplest step....</p>
+</section>
+<footer class=entry-footer><span title="2022-01-26 22:12:24 +0100 CET">January 26, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rnemet</footer>
+<a class=entry-link aria-label="post link to Docker-Compose: what every developer needs to know" href=https://rnemet.dev/posts/docker/compose-app/></a>
+</article>
+<article class=post-entry>
+<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
+</figure>
+<header class=entry-header>
 <h2>Intro docker-compose
 </h2>
 </header>
@@ -105,20 +121,6 @@ What is a container? A container image is a binary containing an application you
 </section>
 <footer class=entry-footer><span title="2021-03-21 10:17:02 +0100 CET">March 21, 2021</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;rnemet</footer>
 <a class=entry-link aria-label="post link to Pod" href=https://rnemet.dev/posts/k8s/pod/></a>
-</article>
-<article class=post-entry>
-<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
-</figure>
-<header class=entry-header>
-<h2>Kubernetes in the bottle: k3d and k3s
-</h2>
-</header>
-<section class=entry-content>
-<p>Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with. But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.
-What is k3s The K3s is lightweight k8s by the rancher for Linux. K3s is intended to work with low resources and IoT devices....</p>
-</section>
-<footer class=entry-footer><span title="2021-03-11 22:40:14 +0100 CET">March 11, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;rnemet</footer>
-<a class=entry-link aria-label="post link to Kubernetes in the bottle: k3d and k3s" href=https://rnemet.dev/posts/k3d/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

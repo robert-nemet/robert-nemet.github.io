@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://rnemet.dev/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.91.2">
+<meta name=generator content="Hugo 0.92.0">
 <link rel=alternate type=application/rss+xml href=https://rnemet.dev/tags/docker-compose/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -76,6 +76,22 @@
 <header class=page-header>
 <h1>docker-compose</h1>
 </header>
+<article class="post-entry tag-entry">
+<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
+</figure>
+<header class=entry-header>
+<h2>Docker-Compose: what every developer needs to know
+</h2>
+</header>
+<section class=entry-content>
+<p>If you are developing microservices, docker-compose(compose), can be a very powerful tool. Think of a case with an API service and database. Creating and maintaining a database with the use of the Liquibase.
+Initial plan …would be:
+start DB run the Liquibase to make changes start an app Adding docker-compose as a driver to utilize this process:
+var config = { startOnLoad:true, theme:'neutral', align:'left' }; mermaid.initialize(config); sequenceDiagram autonumber Docker -- PostgresDB: start PostgresDB -- PostgresDB: wait to finish start PostgresDB -- Docker: done Docker -- LiquibasePG: start LiquibasePGDB -- PostgresDB: execute changeLog LiquibasePGDB -- Docker: done Docker -- Echo: start PostgresDB Setup This is the simplest step....</p>
+</section>
+<footer class=entry-footer><span title="2022-01-26 22:12:24 +0100 CET">January 26, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rnemet</footer>
+<a class=entry-link aria-label="post link to Docker-Compose: what every developer needs to know" href=https://rnemet.dev/posts/docker/compose-app/></a>
+</article>
 <article class="post-entry tag-entry">
 <figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
 </figure>
