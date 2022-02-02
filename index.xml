@@ -5,9 +5,22 @@
     <link>https://rnemet.dev/</link>
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 26 Jan 2022 22:12:24 +0100</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 20:04:19 +0100</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker-Compose: what every developer needs to know</title>
+      <title>Docker-Compose: How To Rebuild Working Application</title>
+      <link>https://rnemet.dev/posts/docker/compose-rebuild/</link>
+      <pubDate>Wed, 02 Feb 2022 20:04:19 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/compose-rebuild/</guid>
+      <description>While developing application and using docker-compose one question quickly arise:
+How to properly rebuild application?
+Once an image is built new one will not be built with the same tag as long it exists in a local cache. The compose builds an image it names it with the pattern &amp;lt;context&amp;gt;_&amp;lt;service_name&amp;gt;:latest.
+Where:
+ Context is directory name where compose YAML is Service is service name in compose YAML file  This means that you can stop or takedown the compose application, next time you run it your images will not be rebuilt if they already exist.</description>
+    </item>
+    
+    <item>
+      <title>Docker-Compose: What Every Developer Needs To Know</title>
       <link>https://rnemet.dev/posts/docker/compose-app/</link>
       <pubDate>Wed, 26 Jan 2022 22:12:24 +0100</pubDate>
       
@@ -19,7 +32,7 @@ var config = { startOnLoad:true, theme:&#39;neutral&#39;, align:&#39;left&#39; }
     </item>
     
     <item>
-      <title>Intro docker-compose</title>
+      <title>Docker-Compose: Intro</title>
       <link>https://rnemet.dev/posts/docker/compose-intro/</link>
       <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
       

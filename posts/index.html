@@ -81,7 +81,24 @@
 <figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
 </figure>
 <header class=entry-header>
-<h2>Docker-Compose: what every developer needs to know
+<h2>Docker-Compose: How To Rebuild Working Application
+</h2>
+</header>
+<section class=entry-content>
+<p>While developing application and using docker-compose one question quickly arise:
+How to properly rebuild application?
+Once an image is built new one will not be built with the same tag as long it exists in a local cache. The compose builds an image it names it with the pattern &lt;context>_&lt;service_name>:latest.
+Where:
+Context is directory name where compose YAML is Service is service name in compose YAML file This means that you can stop or takedown the compose application, next time you run it your images will not be rebuilt if they already exist....</p>
+</section>
+<footer class=entry-footer><span title="2022-02-02 20:04:19 +0100 CET">February 2, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;rnemet</footer>
+<a class=entry-link aria-label="post link to Docker-Compose: How To Rebuild Working Application" href=https://rnemet.dev/posts/docker/compose-rebuild/></a>
+</article>
+<article class=post-entry>
+<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
+</figure>
+<header class=entry-header>
+<h2>Docker-Compose: What Every Developer Needs To Know
 </h2>
 </header>
 <section class=entry-content>
@@ -91,13 +108,13 @@ start DB run the Liquibase to make changes start an app Adding docker-compose as
 var config = { startOnLoad:true, theme:'neutral', align:'left' }; mermaid.initialize(config); sequenceDiagram autonumber Docker -- PostgresDB: start PostgresDB -- PostgresDB: wait to finish start PostgresDB -- Docker: done Docker -- LiquibasePG: start LiquibasePGDB -- PostgresDB: execute changeLog LiquibasePGDB -- Docker: done Docker -- Echo: start PostgresDB Setup This is the simplest step....</p>
 </section>
 <footer class=entry-footer><span title="2022-01-26 22:12:24 +0100 CET">January 26, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rnemet</footer>
-<a class=entry-link aria-label="post link to Docker-Compose: what every developer needs to know" href=https://rnemet.dev/posts/docker/compose-app/></a>
+<a class=entry-link aria-label="post link to Docker-Compose: What Every Developer Needs To Know" href=https://rnemet.dev/posts/docker/compose-app/></a>
 </article>
 <article class=post-entry>
 <figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
 </figure>
 <header class=entry-header>
-<h2>Intro docker-compose
+<h2>Docker-Compose: Intro
 </h2>
 </header>
 <section class=entry-content>
@@ -106,21 +123,7 @@ You can install the required service on your local machine, which comes with the
 Docker and Containers In short, the container is an isolated process on the host machine....</p>
 </section>
 <footer class=entry-footer><span title="2022-01-08 13:42:10 +0100 CET">January 8, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rnemet</footer>
-<a class=entry-link aria-label="post link to Intro docker-compose" href=https://rnemet.dev/posts/docker/compose-intro/></a>
-</article>
-<article class=post-entry>
-<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
-</figure>
-<header class=entry-header>
-<h2>Pod
-</h2>
-</header>
-<section class=entry-content>
-<p>..is the smallest deployable unit one can create and manage inside Kubernetes(K8s). A Pod can have one or more running containers, so it is a set of running containers.
-What is a container? A container image is a binary containing an application you created and all that needs for its running like system and application libraries, configuration files, etc. When you run a container image it becomes container. You can imagine a container image as a software-package but when you run it becomes container....</p>
-</section>
-<footer class=entry-footer><span title="2021-03-21 10:17:02 +0100 CET">March 21, 2021</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;rnemet</footer>
-<a class=entry-link aria-label="post link to Pod" href=https://rnemet.dev/posts/k8s/pod/></a>
+<a class=entry-link aria-label="post link to Docker-Compose: Intro" href=https://rnemet.dev/posts/docker/compose-intro/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
