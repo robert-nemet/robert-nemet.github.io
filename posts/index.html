@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://rnemet.dev/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.0">
+<meta name=generator content="Hugo 0.92.1">
 <link rel=alternate type=application/rss+xml href=https://rnemet.dev/posts/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -46,13 +46,8 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://rnemet.dev/categories/ title=categories>
-<span>categories</span>
-</a>
-</li>
-<li>
-<a href=https://rnemet.dev/tags/ title=tags>
-<span>tags</span>
+<a href=https://rnemet.dev/tags/ title=Tags>
+<span>Tags</span>
 </a>
 </li>
 <li>
@@ -77,6 +72,20 @@
 <header class=page-header>
 <h1>Posts</h1>
 </header>
+<article class=post-entry>
+<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
+</figure>
+<header class=entry-header>
+<h2>Deploying Database Changes For Microservices
+</h2>
+</header>
+<section class=entry-content>
+<p>When a service works with a database its core is tied with the database schema. Usually, that means that service models are represented in the database. Usually as tables, but not necessary.
+Anyway, from that comes a requirement to update database schema when the core of service is changed. If you version your service then you should version your database schema as well. For this purpose, the Liquibase is a good tool(or at least one that I like)....</p>
+</section>
+<footer class=entry-footer><span title="2022-02-12 20:14:05 +0100 CET">February 12, 2022</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;rnemet</footer>
+<a class=entry-link aria-label="post link to Deploying Database Changes For Microservices" href=https://rnemet.dev/posts/k8s/deploy-liquibase/></a>
+</article>
 <article class=post-entry>
 <figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
 </figure>
@@ -109,21 +118,6 @@ var config = { startOnLoad:true, theme:'neutral', align:'left' }; mermaid.initia
 </section>
 <footer class=entry-footer><span title="2022-01-26 22:12:24 +0100 CET">January 26, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rnemet</footer>
 <a class=entry-link aria-label="post link to Docker-Compose: What Every Developer Needs To Know" href=https://rnemet.dev/posts/docker/compose-app/></a>
-</article>
-<article class=post-entry>
-<figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
-</figure>
-<header class=entry-header>
-<h2>Docker-Compose: Intro
-</h2>
-</header>
-<section class=entry-content>
-<p>Working with containers is a necessity today for developers. You will likely need to work with some kind of storage or interact with some external service, like Solr or Postgres.
-You can install the required service on your local machine, which comes with the burden of choosing the correct installation, configuration, etc… Nothing too complicated but takes time.
-Docker and Containers In short, the container is an isolated process on the host machine....</p>
-</section>
-<footer class=entry-footer><span title="2022-01-08 13:42:10 +0100 CET">January 8, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rnemet</footer>
-<a class=entry-link aria-label="post link to Docker-Compose: Intro" href=https://rnemet.dev/posts/docker/compose-intro/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

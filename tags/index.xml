@@ -5,7 +5,25 @@
     <link>https://rnemet.dev/tags/</link>
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Feb 2022 20:04:19 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 20:14:05 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k8s</title>
+      <link>https://rnemet.dev/tags/k8s/</link>
+      <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>liquibase</title>
+      <link>https://rnemet.dev/tags/liquibase/</link>
+      <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/tags/liquibase/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>4devs</title>
       <link>https://rnemet.dev/tags/4devs/</link>
@@ -39,15 +57,6 @@
       <pubDate>Wed, 02 Feb 2022 20:04:19 +0100</pubDate>
       
       <guid>https://rnemet.dev/tags/docker-compose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k8s</title>
-      <link>https://rnemet.dev/tags/k8s/</link>
-      <pubDate>Sun, 21 Mar 2021 10:17:02 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/k8s/</guid>
       <description></description>
     </item>
     
@@ -129,6 +138,15 @@
       <pubDate>Fri, 01 Jan 2021 11:30:03 +0000</pubDate>
       
       <guid>https://rnemet.dev/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ci/cd</title>
+      <link>https://rnemet.dev/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rnemet.dev/tags/ci/cd/</guid>
       <description></description>
     </item>
     

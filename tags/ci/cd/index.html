@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>k8s-basics | DevCube</title>
+<title>ci/cd | DevCube</title>
 <meta name=keywords content>
 <meta name=description content="Hello. Welcome to my brain dump. Hope you find something interesting. Keep in touch.">
 <meta name=author content="Robert Nemet">
-<link rel=canonical href=https://rnemet.dev/tags/k8s-basics/>
+<link rel=canonical href=https://rnemet.dev/tags/ci/cd/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css integrity="sha256-yIlj/i15RiAA/Q+xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as=style>
 <link rel=preload href=/apple-touch-icon.png as=image>
 <link rel=icon href=https://rnemet.dev/favicon.ico>
@@ -18,17 +18,17 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.92.1">
-<link rel=alternate type=application/rss+xml href=https://rnemet.dev/tags/k8s-basics/index.xml>
+<link rel=alternate type=application/rss+xml href=https://rnemet.dev/tags/ci/cd/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
 <style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
 </noscript>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-187673200-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="k8s-basics">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-187673200-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="ci/cd">
 <meta property="og:description" content="Hello. Welcome to my brain dump. Hope you find something interesting. Keep in touch.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://rnemet.dev/tags/k8s-basics/"><meta property="og:site_name" content="DevCube">
+<meta property="og:url" content="https://rnemet.dev/tags/ci/cd/"><meta property="og:site_name" content="DevCube">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="k8s-basics">
+<meta name=twitter:title content="ci/cd">
 <meta name=twitter:description content="Hello. Welcome to my brain dump. Hope you find something interesting. Keep in touch.">
 </head>
 <body class=list id=top>
@@ -69,21 +69,21 @@
 </header>
 <main class=main>
 <header class=page-header>
-<h1>k8s-basics</h1>
+<h1>ci/cd</h1>
 </header>
 <article class="post-entry tag-entry">
 <figure class=entry-cover><img loading=lazy src=https://rnemet.dev/%3Cimage%20path/url%3E alt>
 </figure>
 <header class=entry-header>
-<h2>Pod
+<h2>Deploying Database Changes For Microservices
 </h2>
 </header>
 <section class=entry-content>
-<p>..is the smallest deployable unit one can create and manage inside Kubernetes(K8s). A Pod can have one or more running containers, so it is a set of running containers.
-What is a container? A container image is a binary containing an application you created and all that needs for its running like system and application libraries, configuration files, etc. When you run a container image it becomes container. You can imagine a container image as a software-package but when you run it becomes container....</p>
+<p>When a service works with a database its core is tied with the database schema. Usually, that means that service models are represented in the database. Usually as tables, but not necessary.
+Anyway, from that comes a requirement to update database schema when the core of service is changed. If you version your service then you should version your database schema as well. For this purpose, the Liquibase is a good tool(or at least one that I like)....</p>
 </section>
-<footer class=entry-footer><span title="2021-03-21 10:17:02 +0100 CET">March 21, 2021</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;rnemet</footer>
-<a class=entry-link aria-label="post link to Pod" href=https://rnemet.dev/posts/k8s/pod/></a>
+<footer class=entry-footer><span title="2022-02-12 20:14:05 +0100 CET">February 12, 2022</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;rnemet</footer>
+<a class=entry-link aria-label="post link to Deploying Database Changes For Microservices" href=https://rnemet.dev/posts/k8s/deploy-liquibase/></a>
 </article>
 </main>
 <footer class=footer>
