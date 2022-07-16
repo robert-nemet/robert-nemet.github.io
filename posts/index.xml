@@ -26,7 +26,7 @@ Anyway, from that comes a requirement to update database schema when the core of
 How to properly rebuild application?
 Once an image is built new one will not be built with the same tag as long it exists in a local cache. The compose builds an image it names it with the pattern &amp;lt;context&amp;gt;_&amp;lt;service_name&amp;gt;:latest.
 Where:
- Context is directory name where compose YAML is Service is service name in compose YAML file  This means that you can stop or takedown the compose application, next time you run it your images will not be rebuilt if they already exist.</description>
+Context is directory name where compose YAML is Service is service name in compose YAML file This means that you can stop or takedown the compose application, next time you run it your images will not be rebuilt if they already exist.</description>
     </item>
     
     <item>
@@ -37,8 +37,8 @@ Where:
       <guid>https://rnemet.dev/posts/docker/compose-app/</guid>
       <description>If you are developing microservices, docker-compose(compose), can be a very powerful tool. Think of a case with an API service and database. Creating and maintaining a database with the use of the Liquibase.
 Initial plan &amp;hellip;would be:
- start DB run the Liquibase to make changes start an app  Adding docker-compose as a driver to utilize this process:
-var config = { startOnLoad:true, theme:&#39;neutral&#39;, align:&#39;left&#39; }; mermaid.initialize(config);  sequenceDiagram autonumber Docker -- PostgresDB: start PostgresDB -- PostgresDB: wait to finish start PostgresDB -- Docker: done Docker -- LiquibasePG: start LiquibasePGDB -- PostgresDB: execute changeLog LiquibasePGDB -- Docker: done Docker -- Echo: start  PostgresDB Setup This is the simplest step.</description>
+start DB run the Liquibase to make changes start an app Adding docker-compose as a driver to utilize this process:
+sequenceDiagram autonumber Docker --&gt;&gt; PostgresDB: start PostgresDB --&gt;&gt; PostgresDB: wait to finish start PostgresDB --&gt;&gt; Docker: done Docker --&gt;&gt; LiquibasePG: start LiquibasePGDB --&gt;&gt; PostgresDB: execute changeLog LiquibasePGDB --&gt;&gt; Docker: done Docker --&gt;&gt; Echo: start PostgresDB Setup This is the simplest step.</description>
     </item>
     
     <item>
@@ -89,9 +89,9 @@ Crontab ..is a file used by cron. It is a time-based job scheduler available in 
       
       <guid>https://rnemet.dev/posts/rename_files/</guid>
       <description>A simple problem:
- Rename files with extension xyz which names ends with file. They need to start with document- and have extension txt For example if a file is 1-file.xyz it should be renamed to document-1.txt
- From this:
-&amp;gt; ls -al total 0 drwxr-xr-x 12 owner staff 384 Jan 1 19:26 . drwxr-xr-x 7 owner staff 224 Oct 23 11:32 .. -rw-r--r-- 1 owner staff 0 Jan 1 19:26 1-file.</description>
+Rename files with extension xyz which names ends with file. They need to start with document- and have extension txt For example if a file is 1-file.xyz it should be renamed to document-1.txt
+From this:
+&amp;gt; ls -al total 0 drwxr-xr-x 12 owner staff 384 Jan 1 19:26 . drwxr-xr-x 7 owner staff 224 Oct 23 11:32 .. -rw-r--r-- 1 owner staff 0 Jan 1 19:26 1-file.xyz -rw-r--r-- 1 owner staff 0 Jan 1 19:26 10-file.</description>
     </item>
     
   </channel>
