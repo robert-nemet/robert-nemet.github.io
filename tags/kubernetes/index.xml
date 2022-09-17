@@ -12,9 +12,7 @@
       <pubDate>Wed, 07 Sep 2022 18:58:02 +0200</pubDate>
       
       <guid>https://rnemet.dev/posts/projects/klock/</guid>
-      <description>Problem In an event-driven system like Kubernetes, access to a resource can be restricted with RBAC. RBAC is not designed to execute a mandatory or exclusive lock on a particular resource. It is not impossible, but I found it complicated and error-prone.
-Sometimes I want:
-The CronJob named daily-report is constant. No one can DELETE or UPDATE it. A workload payroll can be modified only by the actor with UID aa-dd-f445-d-55-d and no one else.</description>
+      <description>Easy and eficent way to lock Kubernetes resource</description>
     </item>
     
     <item>
