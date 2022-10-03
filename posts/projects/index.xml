@@ -5,7 +5,16 @@
     <link>https://rnemet.dev/posts/projects/</link>
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Sep 2022 18:58:02 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Oct 2022 18:58:02 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make exclusive locks in Kubernetes</title>
+      <link>https://rnemet.dev/posts/projects/klock_exclusive_lock/</link>
+      <pubDate>Sat, 01 Oct 2022 18:58:02 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/projects/klock_exclusive_lock/</guid>
+      <description>Klock: Exclusive Lock Primer</description>
+    </item>
+    
     <item>
       <title>Klock</title>
       <link>https://rnemet.dev/posts/projects/klock/</link>
