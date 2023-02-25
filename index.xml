@@ -5,7 +5,17 @@
     <link>https://rnemet.dev/</link>
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Oct 2022 18:58:02 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 20:46:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practical k8s: Pods</title>
+      <link>https://rnemet.dev/posts/practical_k8s/pods/</link>
+      <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/practical_k8s/pods/</guid>
+      <description>A Pod would be the smallest deployable unit one can create and manage inside Kubernetes(K8s). In practice, rarely you create a Pod directly. Instead, one would create a Deployment, a StatefulSet, a DaemonSet, a Job, or a CronJob. These are higher-level constructs that would create Pods for you.
+Here I&amp;rsquo;m covering common tasks that one would do with a Pod in daily work, like getting logs, opening a shell inside a container, debugging a Pod, etc.</description>
+    </item>
+    
     <item>
       <title>How to make exclusive locks in Kubernetes</title>
       <link>https://rnemet.dev/posts/projects/klock_exclusive_lock/</link>
@@ -68,16 +78,6 @@ sequenceDiagram autonumber Docker --&gt;&gt; PostgresDB: start PostgresDB --&gt;
       <description>Working with containers is a necessity today for developers. You will likely need to work with some kind of storage or interact with some external service, like Solr or Postgres.
 You can install the required service on your local machine, which comes with the burden of choosing the correct installation, configuration, etc&amp;hellip; Nothing too complicated but takes time.
 Docker and Containers In short, the container is an isolated process on the host machine.</description>
-    </item>
-    
-    <item>
-      <title>Pod</title>
-      <link>https://rnemet.dev/posts/k8s/pod/</link>
-      <pubDate>Sun, 21 Mar 2021 10:17:02 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/posts/k8s/pod/</guid>
-      <description>..is the smallest deployable unit one can create and manage inside Kubernetes(K8s). A Pod can have one or more running containers, so it is a set of running containers.
-What is a container? A container image is a binary containing an application you created and all that needs for its running like system and application libraries, configuration files, etc. When you run a container image it becomes container. You can imagine a container image as a software-package but when you run it becomes container.</description>
     </item>
     
     <item>

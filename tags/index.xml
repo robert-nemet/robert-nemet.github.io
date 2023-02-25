@@ -5,31 +5,49 @@
     <link>https://rnemet.dev/tags/</link>
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Oct 2022 18:58:02 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 20:46:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>klock</title>
-      <link>https://rnemet.dev/tags/klock/</link>
-      <pubDate>Sat, 01 Oct 2022 18:58:02 +0200</pubDate>
+      <title>basics</title>
+      <link>https://rnemet.dev/tags/basics/</link>
+      <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
       
-      <guid>https://rnemet.dev/tags/klock/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://rnemet.dev/tags/kubernetes/</link>
-      <pubDate>Sat, 01 Oct 2022 18:58:02 +0200</pubDate>
-      
-      <guid>https://rnemet.dev/tags/kubernetes/</guid>
+      <guid>https://rnemet.dev/tags/basics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k8s</title>
       <link>https://rnemet.dev/tags/k8s/</link>
-      <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
+      <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://rnemet.dev/tags/kubernetes/</link>
+      <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pod</title>
+      <link>https://rnemet.dev/tags/pod/</link>
+      <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/pod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>klock</title>
+      <link>https://rnemet.dev/tags/klock/</link>
+      <pubDate>Sat, 01 Oct 2022 18:58:02 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/klock/</guid>
       <description></description>
     </item>
     
@@ -52,15 +70,6 @@
     </item>
     
     <item>
-      <title>basics</title>
-      <link>https://rnemet.dev/tags/basics/</link>
-      <pubDate>Wed, 02 Feb 2022 20:04:19 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/basics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>docker</title>
       <link>https://rnemet.dev/tags/docker/</link>
       <pubDate>Wed, 02 Feb 2022 20:04:19 +0100</pubDate>
@@ -75,24 +84,6 @@
       <pubDate>Wed, 02 Feb 2022 20:04:19 +0100</pubDate>
       
       <guid>https://rnemet.dev/tags/docker-compose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k8s-basics</title>
-      <link>https://rnemet.dev/tags/k8s-basics/</link>
-      <pubDate>Sun, 21 Mar 2021 10:17:02 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/k8s-basics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pod</title>
-      <link>https://rnemet.dev/tags/pod/</link>
-      <pubDate>Sun, 21 Mar 2021 10:17:02 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/pod/</guid>
       <description></description>
     </item>
     

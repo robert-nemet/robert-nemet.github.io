@@ -5,7 +5,17 @@
     <link>https://rnemet.dev/tags/basics/</link>
     <description>Recent content in basics on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Feb 2022 20:04:19 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 20:46:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Practical k8s: Pods</title>
+      <link>https://rnemet.dev/posts/practical_k8s/pods/</link>
+      <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/practical_k8s/pods/</guid>
+      <description>A Pod would be the smallest deployable unit one can create and manage inside Kubernetes(K8s). In practice, rarely you create a Pod directly. Instead, one would create a Deployment, a StatefulSet, a DaemonSet, a Job, or a CronJob. These are higher-level constructs that would create Pods for you.
+Here I&amp;rsquo;m covering common tasks that one would do with a Pod in daily work, like getting logs, opening a shell inside a container, debugging a Pod, etc.</description>
+    </item>
+    
     <item>
       <title>Docker-Compose: How To Rebuild Working Application</title>
       <link>https://rnemet.dev/posts/docker/compose-rebuild/</link>
