@@ -5,7 +5,17 @@
     <link>https://rnemet.dev/tags/k8s/</link>
     <description>Recent content in k8s on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Oct 2022 20:46:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 20:14:05 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Event-Driven Metrics</title>
+      <link>https://rnemet.dev/posts/k8s/metrics/</link>
+      <pubDate>Wed, 01 Mar 2023 20:14:05 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/posts/k8s/metrics/</guid>
+      <description>Event-driven systems at the moment are dominating when it comes to software system design. Some of the characteristics of event-driven systems are asynchronous actions and eventual consistency.
+In traditional systems, each call will produce an immediate response. While in event-driven systems(EDS) the response is not immediate but it is made when the system is ready to process a call. The EDS is not easy to debug or predict the next state.</description>
+    </item>
+    
     <item>
       <title>Practical k8s: Pods</title>
       <link>https://rnemet.dev/posts/practical_k8s/pods/</link>
