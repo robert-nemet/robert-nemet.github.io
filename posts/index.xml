@@ -5,7 +5,18 @@
     <link>https://rnemet.dev/posts/</link>
     <description>Recent content in Posts on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Mar 2023 20:14:05 +0100</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 22:23:12 +0100</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Design Metrics With Prometheus Metric Types</title>
+      <link>https://rnemet.dev/posts/k8s/metrics_types/</link>
+      <pubDate>Wed, 08 Mar 2023 22:23:12 +0100</pubDate>
+      
+      <guid>https://rnemet.dev/posts/k8s/metrics_types/</guid>
+      <description>This is the second part of a series about designing metrics for event-driven systems. You can check the first part of this series.
+Prometheus is open source system for monitoring and alerting. It is a part of CNCF (Cloud Native Computing Foundation) and it is one of the most popular monitoring systems. You can say it is a de facto standard for monitoring in Kubernetes.
+To design metrics with Prometheus, you need to understand its metric types.</description>
+    </item>
+    
     <item>
       <title>Understanding Event-Driven Metrics</title>
       <link>https://rnemet.dev/posts/k8s/metrics/</link>
