@@ -13,7 +13,7 @@
       
       <guid>https://rnemet.dev/posts/k8s/metrics_use_method/</guid>
       <description>This is the third part of a series about designing metrics for event-driven systems. You can check the first part and the second part of this series before proceeding.
-While I discussed the general principles of designing metrics in the first part, I explained Prometheus metric types. I applied them as the RED method in the second part. In this article, I&amp;rsquo;ll explain the USE method with Prometheus. Finally, a short discussion about the Four Golden Signals and a conclusion about all the methods.</description>
+While I discussed the general principles of designing metrics in the first part, I explained Prometheus metric types in the second part. I applied them as the RED method in the second part. In this article, I&amp;rsquo;ll explain the USE method with Prometheus.</description>
     </item>
     
     <item>
