@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rnemet.dev/posts/k8s/metrics_use_method/</loc>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
+  </url><url>
     <loc>https://rnemet.dev/posts/k8s/metrics_types/</loc>
     <lastmod>2023-03-08T22:23:12+01:00</lastmod>
   </url><url>
@@ -39,7 +42,7 @@
     <lastmod>2021-01-01T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/posts/</loc>
-    <lastmod>2023-03-08T22:23:12+01:00</lastmod>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/posts/practical_k8s/</loc>
     <lastmod>2022-10-24T20:46:44+02:00</lastmod>
@@ -50,19 +53,19 @@
     <loc>https://rnemet.dev/about/</loc>
   </url><url>
     <loc>https://rnemet.dev/</loc>
-    <lastmod>2023-03-08T22:23:12+01:00</lastmod>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/k8s/</loc>
-    <lastmod>2023-03-08T22:23:12+01:00</lastmod>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/metrics/</loc>
-    <lastmod>2023-03-08T22:23:12+01:00</lastmod>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/prometheus/</loc>
-    <lastmod>2023-03-08T22:23:12+01:00</lastmod>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/</loc>
-    <lastmod>2023-03-08T22:23:12+01:00</lastmod>
+    <lastmod>2023-03-20T20:38:42+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/basics/</loc>
     <lastmod>2022-10-24T20:46:44+02:00</lastmod>
