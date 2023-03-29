@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>grafana on DevCube</title>
+    <link>https://rnemet.dev/tags/grafana/</link>
+    <description>Recent content in grafana on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Mar 2023 21:10:05 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example: API Metrics with Prometheus and Grafana</title>
+      <link>https://rnemet.dev/posts/k8s/example_implement_metrics_api/</link>
+      <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/k8s/example_implement_metrics_api/</guid>
+      <description>This post is a follow-up to the previous posts on designing metrics for event-driven systems. This humble post is a a practical example of how to implement the metrics API and how to use it to create a dashboard in Grafana. I&amp;rsquo;m not using Kubernetes but Docker Compose; the concepts are the same. The reason is simplicity.
+The code is available on this GitHub repository.
+The Scenario The setup comprises two API services(app and beta) and a database(postgres).</description>
+    </item>
+    
+  </channel>
+</rss>
