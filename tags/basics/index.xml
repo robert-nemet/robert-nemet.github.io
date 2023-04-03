@@ -12,8 +12,7 @@
       <pubDate>Sat, 01 Apr 2023 11:32:11 +0200</pubDate>
       
       <guid>https://rnemet.dev/posts/docker/local_development_environment/</guid>
-      <description>How to Create a Local Development Environment with Docker
-As a developer, when working on a service, you face a problem with the working environment. And when I say working environment, I do not think about IDEs, stacks, OS, libraries, etc. I’m thinking about the environment where our services live.
+      <description>As a developer, when working on a service, you face a problem with the working environment. And when I say working environment, I do not think about IDEs, stacks, OS, libraries, etc. I’m thinking about the environment where our services live.
 These days, our services are usually packed inside some container and put in some kind of distributed system. Most containers and other moving parts are controlled by Kubernetes, Nomad, and similar orchestration systems.</description>
     </item>
     
