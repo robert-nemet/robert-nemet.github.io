@@ -5,7 +5,18 @@
     <link>https://rnemet.dev/tags/docker-compose/</link>
     <description>Recent content in docker-compose on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Feb 2022 20:04:19 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Apr 2023 11:32:11 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create a Local Development Environment with Docker Compose</title>
+      <link>https://rnemet.dev/posts/docker/local_development_environment/</link>
+      <pubDate>Sat, 01 Apr 2023 11:32:11 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/local_development_environment/</guid>
+      <description>How to Create a Local Development Environment with Docker
+As a developer, when working on a service, you face a problem with the working environment. And when I say working environment, I do not think about IDEs, stacks, OS, libraries, etc. I’m thinking about the environment where our services live.
+These days, our services are usually packed inside some container and put in some kind of distributed system. Most containers and other moving parts are controlled by Kubernetes, Nomad, and similar orchestration systems.</description>
+    </item>
+    
     <item>
       <title>Docker-Compose: How To Rebuild Working Application</title>
       <link>https://rnemet.dev/posts/docker/compose-rebuild/</link>
