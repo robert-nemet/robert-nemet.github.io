@@ -5,7 +5,17 @@
     <link>https://rnemet.dev/</link>
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Apr 2023 11:32:11 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 22:14:51 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Docker Image Faster</title>
+      <link>https://rnemet.dev/posts/docker/building_image_fast/</link>
+      <pubDate>Sat, 08 Apr 2023 22:14:51 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/building_image_fast/</guid>
+      <description>During building services, we often need to build docker images. We do it multiple times a day. It can be a time-consuming task. Locally we only notice it a little, but in CI/CD pipelines, it can be a problem.
+In this post, I will show you how to speed up the process. I will show you how to use a cache, layer your Dockerfile, and use multi-stage builds, to make your builds faster.</description>
+    </item>
+    
     <item>
       <title>How to Create a Local Development Environment with Docker Compose</title>
       <link>https://rnemet.dev/posts/docker/local_development_environment/</link>
