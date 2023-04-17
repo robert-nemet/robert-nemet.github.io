@@ -5,7 +5,28 @@
     <link>https://rnemet.dev/tags/docker/</link>
     <description>Recent content in docker on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Apr 2023 11:32:11 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
+      <link>https://rnemet.dev/posts/docker/image_k8s/</link>
+      <pubDate>Fri, 14 Apr 2023 15:43:46 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/image_k8s/</guid>
+      <description>After building a Docker image faster, I wanted to build it for the K8s cluster. Running the container on the local machine isn&amp;rsquo;t the same as running it on a cluster. I&amp;rsquo;m packaging a Go application in my example. But the same principles apply to any other language.
+Starting Dockerfile I&amp;rsquo;m starting with the following Dockerfile(Dockerfile_1):
+ARG GO_VERSION=1.20.3 FROM golang:${GO_VERSION}-buster as builder WORKDIR /app COPY go.mod go.sum /app/ RUN go mod download -x COPY .</description>
+    </item>
+    
+    <item>
+      <title>Building Docker Image Faster</title>
+      <link>https://rnemet.dev/posts/docker/building_image_fast/</link>
+      <pubDate>Sat, 08 Apr 2023 22:14:51 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/building_image_fast/</guid>
+      <description>During building services, we often need to build docker images. We do it multiple times a day. It can be a time-consuming task. Locally we only notice it a little, but in CI/CD pipelines, it can be a problem.
+In this post, I will show you how to speed up the process. I will show you how to use a cache, layer your Dockerfile, and use multi-stage builds, to make your builds faster.</description>
+    </item>
+    
     <item>
       <title>How to Create a Local Development Environment with Docker Compose</title>
       <link>https://rnemet.dev/posts/docker/local_development_environment/</link>

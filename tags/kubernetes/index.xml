@@ -5,7 +5,18 @@
     <link>https://rnemet.dev/tags/kubernetes/</link>
     <description>Recent content in kubernetes on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 24 Oct 2022 20:46:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
+      <link>https://rnemet.dev/posts/docker/image_k8s/</link>
+      <pubDate>Fri, 14 Apr 2023 15:43:46 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/image_k8s/</guid>
+      <description>After building a Docker image faster, I wanted to build it for the K8s cluster. Running the container on the local machine isn&amp;rsquo;t the same as running it on a cluster. I&amp;rsquo;m packaging a Go application in my example. But the same principles apply to any other language.
+Starting Dockerfile I&amp;rsquo;m starting with the following Dockerfile(Dockerfile_1):
+ARG GO_VERSION=1.20.3 FROM golang:${GO_VERSION}-buster as builder WORKDIR /app COPY go.mod go.sum /app/ RUN go mod download -x COPY .</description>
+    </item>
+    
     <item>
       <title>Practical k8s: Pods</title>
       <link>https://rnemet.dev/posts/practical_k8s/pods/</link>
