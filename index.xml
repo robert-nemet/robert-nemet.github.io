@@ -5,7 +5,16 @@
     <link>https://rnemet.dev/</link>
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 08:00:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Outsourcing Killing Developers</title>
+      <link>https://rnemet.dev/posts/office/coder_developer/</link>
+      <pubDate>Sun, 23 Apr 2023 08:00:44 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/office/coder_developer/</guid>
+      <description>I live and work in one of the Balkan countries, Belgrade, Serbia. After the sad &amp;rsquo;90s, all countries in the region try to catch up with the rest of the world. That led to a boom in IT. A large portion of IT is outsourcing companies. Some companies are domestic, and some are foreign. Also, some companies opened their R&amp;amp;D centers in the region. Small and big as well. There was and still is a large number of startups.</description>
+    </item>
+    
     <item>
       <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
       <link>https://rnemet.dev/posts/docker/image_k8s/</link>

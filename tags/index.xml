@@ -5,7 +5,16 @@
     <link>https://rnemet.dev/tags/</link>
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 08:00:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>work-life</title>
+      <link>https://rnemet.dev/tags/work-life/</link>
+      <pubDate>Sun, 23 Apr 2023 08:00:44 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/work-life/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docker</title>
       <link>https://rnemet.dev/tags/docker/</link>
