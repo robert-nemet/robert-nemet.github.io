@@ -5,7 +5,18 @@
     <link>https://rnemet.dev/posts/</link>
     <description>Recent content in Posts on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Apr 2023 08:00:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 21:32:54 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Docker Goodies: Init and Watch</title>
+      <link>https://rnemet.dev/posts/docker/new_stuff_init_watch/</link>
+      <pubDate>Mon, 01 May 2023 21:32:54 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/new_stuff_init_watch/</guid>
+      <description>Recently Docker brought some new stuff that I found very useful for developers. They are still in the experimental phase but are already very useful. Try them and give your feedback to the Docker team. The code I&amp;rsquo;m using for this is available here.
+Let&amp;rsquo;s start&amp;hellip;
+Init Writing a Dockerfile when starting with a new application is tedious. Why? Because we are repeating most of the stuff over and over again.</description>
+    </item>
+    
     <item>
       <title>Is Outsourcing Killing Developers</title>
       <link>https://rnemet.dev/posts/office/coder_developer/</link>

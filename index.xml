@@ -5,7 +5,18 @@
     <link>https://rnemet.dev/</link>
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Apr 2023 08:00:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 21:32:54 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Docker Goodies: Init and Watch</title>
+      <link>https://rnemet.dev/posts/docker/new_stuff_init_watch/</link>
+      <pubDate>Mon, 01 May 2023 21:32:54 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/docker/new_stuff_init_watch/</guid>
+      <description>Recently Docker brought some new stuff that I found very useful for developers. They are still in the experimental phase but are already very useful. Try them and give your feedback to the Docker team. The code I&amp;rsquo;m using for this is available here.
+Let&amp;rsquo;s start&amp;hellip;
+Init Writing a Dockerfile when starting with a new application is tedious. Why? Because we are repeating most of the stuff over and over again.</description>
+    </item>
+    
     <item>
       <title>Is Outsourcing Killing Developers</title>
       <link>https://rnemet.dev/posts/office/coder_developer/</link>
@@ -202,7 +213,8 @@ From this:
       <guid>https://rnemet.dev/about/</guid>
       <description>Hello friend,
 I’m a simple guy who loves computers and technology. Here I’m spilling all my thought about software, computers, technology, and work culture.
-I’m sharing things that I worked on. If you are interested subscribe to not miss new posts in the newsletter and on my website. If you like it please share and let me know. If you do not like it let me know why.</description>
+I’m sharing things that I worked on. If you are interested subscribe to not miss new posts in the newsletter and on my website. If you like it please share and let me know. If you do not like it let me know why.
+I am especially passionate about: software development with Java and Go.</description>
     </item>
     
   </channel>
