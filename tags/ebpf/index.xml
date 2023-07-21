@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ebpf on DevCube</title>
+    <link>https://rnemet.dev/tags/ebpf/</link>
+    <description>Recent content in ebpf on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jun 2023 12:53:57 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/ebpf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning eBPF: Maps, Ring Buffers and Output</title>
+      <link>https://rnemet.dev/posts/ebpf/output-ebpf/</link>
+      <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/ebpf/output-ebpf/</guid>
+      <description>I set the stage for learning eBPF. As mentioned in the previous post, eBPF is a technology that allows us to run code in the kernel. This is a compelling technology, but it comes with a few limitations. One of them is that we can&amp;rsquo;t use the standard output to print messages. At least not directly. Let&amp;rsquo;s explore how we can do this.
+Why can&amp;rsquo;t I use the standard input/output? Let&amp;rsquo;s look at this picture The eBPF programs are executed in the kernel.</description>
+    </item>
+    
+    <item>
+      <title>Learning eBPF: Setting up the environment</title>
+      <link>https://rnemet.dev/posts/ebpf/learn-ebpf/</link>
+      <pubDate>Mon, 08 May 2023 09:40:16 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/ebpf/learn-ebpf/</guid>
+      <description>For a while, I&amp;rsquo;ve been following stuff around eBPF, and it is very promising. What I just wrote is an understatement. At first glance, eBPF is bringing many new possibilities to our toolbox. You can start with performance profiling, tracing, security, networking, etc. But let&amp;rsquo;s start from the beginning.
+By the way, I&amp;rsquo;m doing this on OSX. For eBPF, you need Linux kernel 4.1 or newer. So, I&amp;rsquo;ll be running some VMs.</description>
+    </item>
+    
+  </channel>
+</rss>

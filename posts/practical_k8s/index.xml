@@ -5,6 +5,7 @@
     <link>https://rnemet.dev/posts/practical_k8s/</link>
     <description>Recent content in Practical Kubernetes on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Mon, 24 Oct 2022 20:46:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/practical_k8s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Practical k8s: Pods</title>

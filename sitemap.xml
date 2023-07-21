@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rnemet.dev/posts/ebpf/output-ebpf/</loc>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/posts/ebpf/learn-ebpf/</loc>
+    <lastmod>2023-05-08T09:40:16+02:00</lastmod>
+  </url><url>
     <loc>https://rnemet.dev/posts/docker/new_stuff_init_watch/</loc>
     <lastmod>2023-05-01T21:32:54+02:00</lastmod>
   </url><url>
@@ -60,7 +66,7 @@
     <lastmod>2021-01-01T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/posts/</loc>
-    <lastmod>2023-05-01T21:32:54+02:00</lastmod>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/posts/practical_k8s/</loc>
     <lastmod>2022-10-24T20:46:44+02:00</lastmod>
@@ -71,7 +77,22 @@
     <loc>https://rnemet.dev/about/</loc>
   </url><url>
     <loc>https://rnemet.dev/</loc>
-    <lastmod>2023-05-01T21:32:54+02:00</lastmod>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/ebpf/</loc>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/kernel/</loc>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/linux/</loc>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/</loc>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/tutorial/</loc>
+    <lastmod>2023-06-10T12:53:57+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/basics/</loc>
     <lastmod>2023-05-01T21:32:54+02:00</lastmod>
@@ -80,9 +101,6 @@
     <lastmod>2023-05-01T21:32:54+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/docker-compose/</loc>
-    <lastmod>2023-05-01T21:32:54+02:00</lastmod>
-  </url><url>
-    <loc>https://rnemet.dev/tags/</loc>
     <lastmod>2023-05-01T21:32:54+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/work-life/</loc>

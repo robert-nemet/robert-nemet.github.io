@@ -5,6 +5,7 @@
     <link>https://rnemet.dev/tags/local-k8s/</link>
     <description>Recent content in local-k8s on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Thu, 11 Mar 2021 22:40:14 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/local-k8s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes in the bottle: k3d and k3s</title>

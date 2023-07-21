@@ -5,6 +5,7 @@
     <link>https://rnemet.dev/tags/liquibase/</link>
     <description>Recent content in liquibase on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 12 Feb 2022 20:14:05 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/liquibase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploying Database Changes For Microservices</title>

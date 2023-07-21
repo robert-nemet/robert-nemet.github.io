@@ -5,7 +5,44 @@
     <link>https://rnemet.dev/tags/</link>
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 May 2023 21:32:54 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jun 2023 12:53:57 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ebpf</title>
+      <link>https://rnemet.dev/tags/ebpf/</link>
+      <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/ebpf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://rnemet.dev/tags/kernel/</link>
+      <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://rnemet.dev/tags/linux/</link>
+      <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://rnemet.dev/tags/tutorial/</link>
+      <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>basics</title>
       <link>https://rnemet.dev/tags/basics/</link>
