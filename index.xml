@@ -6,7 +6,17 @@
     <description>Recent content on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jun 2023 12:53:57 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 15:32:51 +0200</lastBuildDate><atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WIP: Taskfile instead of Makefile?</title>
+      <link>https://rnemet.dev/posts/tools/taskfile/</link>
+      <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/tools/taskfile/</guid>
+      <description>Recently, I stumbled upon a tool called Taskfile. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.
+Why Taskfile? First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate.</description>
+    </item>
+    
     <item>
       <title>Learning eBPF: Maps, Ring Buffers and Output</title>
       <link>https://rnemet.dev/posts/ebpf/output-ebpf/</link>

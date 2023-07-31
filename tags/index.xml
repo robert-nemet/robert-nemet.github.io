@@ -6,7 +6,34 @@
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jun 2023 12:53:57 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 15:32:51 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>automation</title>
+      <link>https://rnemet.dev/tags/automation/</link>
+      <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tasklist</title>
+      <link>https://rnemet.dev/tags/tasklist/</link>
+      <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/tasklist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://rnemet.dev/tags/tutorial/</link>
+      <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ebpf</title>
       <link>https://rnemet.dev/tags/ebpf/</link>
@@ -31,15 +58,6 @@
       <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://rnemet.dev/tags/tutorial/</link>
-      <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
-      
-      <guid>https://rnemet.dev/tags/tutorial/</guid>
       <description></description>
     </item>
     
@@ -175,15 +193,6 @@
       <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
       
       <guid>https://rnemet.dev/tags/local-k8s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>automation</title>
-      <link>https://rnemet.dev/tags/automation/</link>
-      <pubDate>Mon, 15 Feb 2021 11:30:03 +0000</pubDate>
-      
-      <guid>https://rnemet.dev/tags/automation/</guid>
       <description></description>
     </item>
     
