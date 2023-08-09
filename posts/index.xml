@@ -6,7 +6,18 @@
     <description>Recent content in Posts on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Jul 2023 15:32:51 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Task vs Make - Final Thoughts</title>
+      <link>https://rnemet.dev/posts/tools/tasklist_final/</link>
+      <pubDate>Tue, 08 Aug 2023 21:03:40 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/tools/tasklist_final/</guid>
+      <description>So, after spending time moving from Make to Task, I decided. I&amp;rsquo;m going with Task in my future projects. Make will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.
+All this is my personal opinion. I&amp;rsquo;m not saying that Task is better than Make. I think that Task is better for me.
+Global Taskfile I have a global Task in my home directory for standard stuff.</description>
+    </item>
+    
     <item>
       <title>WIP: Taskfile instead of Makefile?</title>
       <link>https://rnemet.dev/posts/tools/taskfile/</link>
