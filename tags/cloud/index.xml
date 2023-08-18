@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cloud on DevCube</title>
+    <link>https://rnemet.dev/tags/cloud/</link>
+    <description>Recent content in cloud on DevCube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring GCP With Terraform: Setting Up The Environment And Project</title>
+      <link>https://rnemet.dev/posts/gcp/start_with_gcp/</link>
+      <pubDate>Wed, 16 Aug 2023 21:10:56 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/gcp/start_with_gcp/</guid>
+      <description>This topic is nothing new. There are many articles and tutorials on the internet about this. I&amp;rsquo;ll be setting up a Terraform project to explore GCP. I cover the basics of Terraform and GCP.
+I replaced the real project ID with _project-id_in the following examples. You need to replace it with your project ID.
+Prerequisites Create GCP Project First, you must create a GCP account, then create a project and set up billing on that project.</description>
+    </item>
+    
+  </channel>
+</rss>

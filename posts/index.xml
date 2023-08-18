@@ -6,7 +6,18 @@
     <description>Recent content in Posts on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring GCP With Terraform: Setting Up The Environment And Project</title>
+      <link>https://rnemet.dev/posts/gcp/start_with_gcp/</link>
+      <pubDate>Wed, 16 Aug 2023 21:10:56 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/gcp/start_with_gcp/</guid>
+      <description>This topic is nothing new. There are many articles and tutorials on the internet about this. I&amp;rsquo;ll be setting up a Terraform project to explore GCP. I cover the basics of Terraform and GCP.
+I replaced the real project ID with _project-id_in the following examples. You need to replace it with your project ID.
+Prerequisites Create GCP Project First, you must create a GCP account, then create a project and set up billing on that project.</description>
+    </item>
+    
     <item>
       <title>Task vs Make - Final Thoughts</title>
       <link>https://rnemet.dev/posts/tools/tasklist_final/</link>

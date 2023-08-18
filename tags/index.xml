@@ -6,7 +6,34 @@
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cloud</title>
+      <link>https://rnemet.dev/tags/cloud/</link>
+      <pubDate>Wed, 16 Aug 2023 21:10:56 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gcp</title>
+      <link>https://rnemet.dev/tags/gcp/</link>
+      <pubDate>Wed, 16 Aug 2023 21:10:56 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>https://rnemet.dev/tags/terraform/</link>
+      <pubDate>Wed, 16 Aug 2023 21:10:56 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>automation</title>
       <link>https://rnemet.dev/tags/automation/</link>
