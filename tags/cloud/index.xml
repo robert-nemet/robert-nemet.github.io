@@ -6,7 +6,16 @@
     <description>Recent content in cloud on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring GCP With Terraform: VPCs, Firewall Rules And VMs</title>
+      <link>https://rnemet.dev/posts/gcp/gcp_tf_vpc/</link>
+      <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/gcp/gcp_tf_vpc/</guid>
+      <description>GCP Networking with Terraform, part 1</description>
+    </item>
+    
     <item>
       <title>Exploring GCP With Terraform: Setting Up The Environment And Project</title>
       <link>https://rnemet.dev/posts/gcp/start_with_gcp/</link>
@@ -14,7 +23,8 @@
       
       <guid>https://rnemet.dev/posts/gcp/start_with_gcp/</guid>
       <description>This topic is nothing new. There are many articles and tutorials on the internet about this. I&amp;rsquo;ll be setting up a Terraform project to explore GCP. I cover the basics of Terraform and GCP.
-I replaced the real project ID with _project-id_in the following examples. You need to replace it with your project ID.
+Warning
+I replaced the real project ID with project-id in the following examples. You need to replace it with your project ID.
 Prerequisites Create GCP Project First, you must create a GCP account, then create a project and set up billing on that project.</description>
     </item>
     
