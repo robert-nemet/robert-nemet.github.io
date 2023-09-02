@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rnemet.dev/posts/gcp/gcp_tf_vpc_firewall_2/</loc>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
+  </url><url>
     <loc>https://rnemet.dev/posts/gcp/gcp_tf_vpc/</loc>
     <lastmod>2023-08-20T21:10:56+02:00</lastmod>
   </url><url>
@@ -78,7 +81,7 @@
     <lastmod>2021-01-01T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/posts/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/posts/practical_k8s/</loc>
     <lastmod>2022-10-24T20:46:44+02:00</lastmod>
@@ -89,25 +92,28 @@
     <loc>https://rnemet.dev/about/</loc>
   </url><url>
     <loc>https://rnemet.dev/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/cloud/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/firewall/</loc>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/gcp/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/networking/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/terraform/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/vpc/</loc>
-    <lastmod>2023-08-20T21:10:56+02:00</lastmod>
+    <lastmod>2023-08-28T21:48:19+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/automation/</loc>
     <lastmod>2023-08-08T21:03:40+02:00</lastmod>

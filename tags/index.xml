@@ -6,20 +6,29 @@
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Aug 2023 21:48:19 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cloud</title>
       <link>https://rnemet.dev/tags/cloud/</link>
-      <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>firewall</title>
+      <link>https://rnemet.dev/tags/firewall/</link>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/firewall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>gcp</title>
       <link>https://rnemet.dev/tags/gcp/</link>
-      <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/gcp/</guid>
       <description></description>
@@ -28,7 +37,7 @@
     <item>
       <title>networking</title>
       <link>https://rnemet.dev/tags/networking/</link>
-      <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/networking/</guid>
       <description></description>
@@ -37,7 +46,7 @@
     <item>
       <title>terraform</title>
       <link>https://rnemet.dev/tags/terraform/</link>
-      <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/terraform/</guid>
       <description></description>
@@ -46,7 +55,7 @@
     <item>
       <title>vpc</title>
       <link>https://rnemet.dev/tags/vpc/</link>
-      <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/vpc/</guid>
       <description></description>

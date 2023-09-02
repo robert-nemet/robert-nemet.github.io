@@ -6,7 +6,16 @@
     <description>Recent content in cloud on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Aug 2023 21:10:56 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Aug 2023 21:48:19 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring GCP With Terraform: VPC Firewall Rules, part 2</title>
+      <link>https://rnemet.dev/posts/gcp/gcp_tf_vpc_firewall_2/</link>
+      <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/gcp/gcp_tf_vpc_firewall_2/</guid>
+      <description>GCP Networking with Terraform, part 2: Firewall</description>
+    </item>
+    
     <item>
       <title>Exploring GCP With Terraform: VPCs, Firewall Rules And VMs</title>
       <link>https://rnemet.dev/posts/gcp/gcp_tf_vpc/</link>
