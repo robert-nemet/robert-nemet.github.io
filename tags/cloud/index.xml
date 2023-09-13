@@ -6,7 +6,16 @@
     <description>Recent content in cloud on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Aug 2023 21:48:19 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 21:32:48 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GCP With Terraform: Refactor with Modules</title>
+      <link>https://rnemet.dev/posts/gcp/gcp_tf_refactor/</link>
+      <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/posts/gcp/gcp_tf_refactor/</guid>
+      <description>This post is the fourth part of the series about using Terraform to manage GCP resources. In the first part, I did a basic setup of the project: remote state file, state file encryption, a bucket creation. In the second part, I created VPC and subnets and added some basic firewall rules and VMs. In the third part, I added more VPC, subnets, firewall rules, and VMs. In this part, I will refactor the project to make it more manageable.</description>
+    </item>
+    
     <item>
       <title>Exploring GCP With Terraform: VPC Firewall Rules, part 2</title>
       <link>https://rnemet.dev/posts/gcp/gcp_tf_vpc_firewall_2/</link>
