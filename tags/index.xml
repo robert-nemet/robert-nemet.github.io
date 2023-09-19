@@ -6,11 +6,11 @@
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Sep 2023 21:32:48 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Sep 2023 08:54:32 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cloud</title>
       <link>https://rnemet.dev/tags/cloud/</link>
-      <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
+      <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/cloud/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>gcp</title>
       <link>https://rnemet.dev/tags/gcp/</link>
-      <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
+      <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/gcp/</guid>
       <description></description>
@@ -28,7 +28,7 @@
     <item>
       <title>networking</title>
       <link>https://rnemet.dev/tags/networking/</link>
-      <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
+      <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/networking/</guid>
       <description></description>
@@ -37,9 +37,18 @@
     <item>
       <title>terraform</title>
       <link>https://rnemet.dev/tags/terraform/</link>
-      <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
+      <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
       
       <guid>https://rnemet.dev/tags/terraform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terragrunt</title>
+      <link>https://rnemet.dev/tags/terragrunt/</link>
+      <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
+      
+      <guid>https://rnemet.dev/tags/terragrunt/</guid>
       <description></description>
     </item>
     
