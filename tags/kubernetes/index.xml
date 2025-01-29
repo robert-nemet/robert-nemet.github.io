@@ -6,8 +6,23 @@
     <description>Recent content in Kubernetes on DevCube</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 20:46:44 +0200</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes: A Gentle Introduction for Developers</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro/</link>
+      <pubDate>Tue, 28 Jan 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro/</guid>
+      <description>&lt;p&gt;Diving into the world of Kubernetes doesn&amp;rsquo;t need to be intimidating. This post
+will explain Kubernetes, why it matters, and how it fits into the modern
+application landscape. By the end, you&amp;rsquo;ll understand its core purpose and how it
+can make your development life more manageable.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-kubernetes-and-why-should-you-care&#34;&gt;What is Kubernetes and Why Should You Care?&lt;/h2&gt;
+&lt;p&gt;Kubernetes. The name alone sounds like something out of a sci-fi novel. And in some
+ways, it is. It&amp;rsquo;s a system designed to orchestrate fleets of containers across vast,
+distributed landscapes. But at its core, Kubernetes is here to solve a real human
+problem: running applications reliably without losing your mind. So they say.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
       <link>https://rnemet.dev/posts/docker/image_k8s/</link>

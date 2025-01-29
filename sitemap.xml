@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rnemet.dev/posts/practical_k8s/k8s_intro/</loc>
+    <lastmod>2025-01-28T20:46:44+02:00</lastmod>
+  </url><url>
     <loc>https://rnemet.dev/posts/ai/codium-pragent/</loc>
     <lastmod>2023-12-10T11:27:57+01:00</lastmod>
   </url><url>
@@ -103,6 +106,21 @@
     <loc>https://rnemet.dev/</loc>
     <lastmod>2025-01-28T20:46:44+02:00</lastmod>
   </url><url>
+    <loc>https://rnemet.dev/tags/basics/</loc>
+    <lastmod>2025-01-28T20:46:44+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/introduction/</loc>
+    <lastmod>2025-01-28T20:46:44+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/k8s/</loc>
+    <lastmod>2025-01-28T20:46:44+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/kubernetes/</loc>
+    <lastmod>2025-01-28T20:46:44+02:00</lastmod>
+  </url><url>
+    <loc>https://rnemet.dev/tags/</loc>
+    <lastmod>2025-01-28T20:46:44+02:00</lastmod>
+  </url><url>
     <loc>https://rnemet.dev/tags/ai/</loc>
     <lastmod>2023-12-10T11:27:57+01:00</lastmod>
   </url><url>
@@ -113,9 +131,6 @@
     <lastmod>2023-12-10T11:27:57+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/pr-agent/</loc>
-    <lastmod>2023-12-10T11:27:57+01:00</lastmod>
-  </url><url>
-    <loc>https://rnemet.dev/tags/</loc>
     <lastmod>2023-12-10T11:27:57+01:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/cloud/</loc>
@@ -154,9 +169,6 @@
     <loc>https://rnemet.dev/tags/linux/</loc>
     <lastmod>2023-06-10T12:53:57+02:00</lastmod>
   </url><url>
-    <loc>https://rnemet.dev/tags/basics/</loc>
-    <lastmod>2023-05-01T21:32:54+02:00</lastmod>
-  </url><url>
     <loc>https://rnemet.dev/tags/docker/</loc>
     <lastmod>2023-05-01T21:32:54+02:00</lastmod>
   </url><url>
@@ -166,13 +178,7 @@
     <loc>https://rnemet.dev/tags/work-life/</loc>
     <lastmod>2023-04-23T08:00:44+02:00</lastmod>
   </url><url>
-    <loc>https://rnemet.dev/tags/kubernetes/</loc>
-    <lastmod>2023-04-14T15:43:46+02:00</lastmod>
-  </url><url>
     <loc>https://rnemet.dev/tags/grafana/</loc>
-    <lastmod>2023-03-28T21:10:05+02:00</lastmod>
-  </url><url>
-    <loc>https://rnemet.dev/tags/k8s/</loc>
     <lastmod>2023-03-28T21:10:05+02:00</lastmod>
   </url><url>
     <loc>https://rnemet.dev/tags/metrics/</loc>
