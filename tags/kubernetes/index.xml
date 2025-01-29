@@ -1,60 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>kubernetes on DevCube</title>
+    <title>Kubernetes on DevCube</title>
     <link>https://rnemet.dev/tags/kubernetes/</link>
-    <description>Recent content in kubernetes on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Kubernetes on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Apr 2023 15:43:46 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
       <link>https://rnemet.dev/posts/docker/image_k8s/</link>
       <pubDate>Fri, 14 Apr 2023 15:43:46 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/image_k8s/</guid>
-      <description>After building a Docker image faster, I wanted to build it for the K8s cluster. Running the container on the local machine isn&amp;rsquo;t the same as running it on a cluster. I&amp;rsquo;m packaging a Go application in my example. But the same principles apply to any other language.
-Starting Dockerfile I&amp;rsquo;m starting with the following Dockerfile(Dockerfile_1):
-ARG GO_VERSION=1.20.3 FROM golang:${GO_VERSION}-buster as builder WORKDIR /app COPY go.mod go.sum /app/ RUN go mod download -x COPY .</description>
+      <description>&lt;p&gt;After building &lt;a href=&#34;https://rnemet.dev/posts/docker/building_image_fast/&#34;&gt;a Docker image faster&lt;/a&gt;, I wanted to build it for the K8s cluster. Running the container on
+the local machine isn&amp;rsquo;t the same as running it on a cluster. I&amp;rsquo;m packaging a Go application in my example. But the same principles apply to any other language.&lt;/p&gt;
+&lt;h2 id=&#34;starting-dockerfile&#34;&gt;Starting Dockerfile&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m starting with the following Dockerfile(Dockerfile_1):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-dockerfile&#34; data-lang=&#34;dockerfile&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ARG&lt;/span&gt; GO_VERSION&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;.20.3&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; golang:${GO_VERSION}-buster as builder&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; /app&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; go.mod go.sum /app/&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;RUN&lt;/span&gt; go mod download -x&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; . /app/&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;RUN&lt;/span&gt; go build -o app&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; debian:buster&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; /app&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; --from&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;builder /app/app /app/&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ENTRYPOINT&lt;/span&gt; [ &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/app/app&amp;#34;&lt;/span&gt; ]&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And I build it with the following command:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Practical k8s: Pods</title>
       <link>https://rnemet.dev/posts/practical_k8s/pods/</link>
       <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/practical_k8s/pods/</guid>
-      <description>A Pod would be the smallest deployable unit one can create and manage inside Kubernetes(K8s). In practice, rarely you create a Pod directly. Instead, one would create a Deployment, a StatefulSet, a DaemonSet, a Job, or a CronJob. These are higher-level constructs that would create Pods for you.
-Here I&amp;rsquo;m covering common tasks that one would do with a Pod in daily work, like getting logs, opening a shell inside a container, debugging a Pod, etc.</description>
+      <description>&lt;p&gt;A Pod would be the smallest deployable unit one can create and manage inside Kubernetes(K8s). In practice, rarely you create a Pod directly.
+Instead, one would create a Deployment, a StatefulSet, a DaemonSet, a Job, or a CronJob. These are higher-level constructs that would create
+Pods for you.&lt;/p&gt;
+&lt;p&gt;Here I&amp;rsquo;m covering common tasks that one would do with a Pod in daily work, like getting logs, opening a shell inside a container, debugging a Pod, etc.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to make exclusive locks in Kubernetes</title>
       <link>https://rnemet.dev/posts/projects/klock_exclusive_lock/</link>
       <pubDate>Sat, 01 Oct 2022 18:58:02 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/projects/klock_exclusive_lock/</guid>
       <description>Klock: Exclusive Lock Primer</description>
     </item>
-    
     <item>
       <title>Klock</title>
       <link>https://rnemet.dev/posts/projects/klock/</link>
       <pubDate>Wed, 07 Sep 2022 18:58:02 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/projects/klock/</guid>
       <description>Easy and eficent way to lock Kubernetes resource</description>
     </item>
-    
     <item>
       <title>Kubernetes in the bottle: k3d and k3s</title>
       <link>https://rnemet.dev/posts/k3d/</link>
       <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k3d/</guid>
-      <description>Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with. But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.
-What is k3s The K3s is lightweight k8s by the rancher for Linux. K3s is intended to work with low resources and IoT devices.</description>
+      <description>&lt;p&gt;Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with.
+But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-k3shttpsk3sio&#34;&gt;What is &lt;a href=&#34;https://k3s.io/&#34;&gt;k3s&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The K3s is lightweight k8s by &lt;a href=&#34;https://rancher.com/&#34;&gt;the rancher&lt;/a&gt; for Linux. K3s is intended to work with low resources and IoT devices.
+So, it can easily run on laptops. It is packed as a single binary so it is easy to setup. It requires to have installed docker, as nodes will be run inside containers.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

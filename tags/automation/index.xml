@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>automation on DevCube</title>
+    <title>Automation on DevCube</title>
     <link>https://rnemet.dev/tags/automation/</link>
-    <description>Recent content in automation on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Automation on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Dec 2023 11:27:57 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 11:27:57 +0100</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating Pull Request Reviews With CodiumAI PR-Agent</title>
       <link>https://rnemet.dev/posts/ai/codium-pragent/</link>
       <pubDate>Sun, 10 Dec 2023 11:27:57 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/ai/codium-pragent/</guid>
-      <description>Motivation If you are a developer, you know how much time you spend on pull request reviews. We all try to write the best code we can. When we are done, we ask our team members to review our code. Sometimes, making a pull request is more complex than it sounds. Over time, teams learn that pull requests need to be standardized to speed things up and improve communication. That is why we have a pull request template, for example.</description>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;If you are a developer, you know how much time you spend on pull request reviews. We all try to write the best code we can. When we are done, we ask our
+team members to review our code. Sometimes, making a pull request is more complex than it sounds. Over time, teams learn that pull requests need to be standardized to speed things up and improve
+communication. That is why we have a pull request template, for example. Sometimes, even that is not enough. Because the speed
+at which the code is sent out is increasing. More pull requests are created. And the number of pull requests that need to be reviewed is expanding. Ah&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Task vs Make - Final Thoughts</title>
       <link>https://rnemet.dev/posts/tools/tasklist_final/</link>
       <pubDate>Tue, 08 Aug 2023 21:03:40 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/tools/tasklist_final/</guid>
-      <description>So, after spending time moving from Make to Task, I decided. I&amp;rsquo;m going with Task in my future projects. Make will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.
-All this is my personal opinion. I&amp;rsquo;m not saying that Task is better than Make. I think that Task is better for me.
-Global Taskfile I have a global Task in my home directory for standard stuff.</description>
+      <description>&lt;p&gt;So, after spending time moving from &lt;em&gt;Make&lt;/em&gt; to &lt;em&gt;Task&lt;/em&gt;, I decided. I&amp;rsquo;m going with &lt;em&gt;Task&lt;/em&gt; in my future projects.
+&lt;em&gt;Make&lt;/em&gt; will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.&lt;/p&gt;
+&lt;p&gt;All this is my personal opinion. I&amp;rsquo;m not saying that &lt;em&gt;Task&lt;/em&gt; is better than &lt;em&gt;Make&lt;/em&gt;. I think that &lt;em&gt;Task&lt;/em&gt; is better for me.&lt;/p&gt;
+&lt;h3 id=&#34;global-taskfile&#34;&gt;Global Taskfile&lt;/h3&gt;
+&lt;p&gt;I have a global &lt;em&gt;Task&lt;/em&gt; in my home directory for standard stuff. It contains tasks to &lt;em&gt;update my tools&lt;/em&gt;, &lt;em&gt;run some diagnostics&lt;/em&gt;, etc.
+Because it is global, it is accessible from any directory. For example:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WIP: Taskfile instead of Makefile?</title>
       <link>https://rnemet.dev/posts/tools/taskfile/</link>
       <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/tools/taskfile/</guid>
-      <description>Recently, I stumbled upon a tool called Taskfile. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.
-Why Taskfile? First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate.</description>
+      <description>&lt;p&gt;Recently, I stumbled upon a tool called &lt;a href=&#34;https://taskfile.dev/#/&#34;&gt;Taskfile&lt;/a&gt;. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.&lt;/p&gt;
+&lt;h2 id=&#34;why-taskfile&#34;&gt;Why Taskfile?&lt;/h2&gt;
+&lt;p&gt;First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate. It can be tricky to write a good Makefile or to debug it. Reading also can be a challenge. Because of that, when I found out about Taskfile, I decided to try it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to schedule task with crontab</title>
       <link>https://rnemet.dev/posts/schedule_tasks/</link>
       <pubDate>Mon, 15 Feb 2021 11:30:03 +0000</pubDate>
-      
       <guid>https://rnemet.dev/posts/schedule_tasks/</guid>
-      <description>I&amp;rsquo;m keeping notes in simple text files. Imho, this is a straightforward solution that I can control. I need to be able to version my changes and to keep backup as well. For that, I&amp;rsquo;m using git. But I have to make commits and push changes periodically. I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the crontab.
-Crontab ..is a file used by cron. It is a time-based job scheduler available in Unix-like OS.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m keeping notes in simple text files. Imho, this is a  straightforward solution that I can control. I need to be able to version my changes and to keep backup as well. For that, I&amp;rsquo;m using git.
+But I have to make commits and push changes periodically.
+I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the &lt;em&gt;crontab&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;crontab&#34;&gt;Crontab&lt;/h2&gt;
+&lt;p&gt;..is a file used by &lt;em&gt;cron&lt;/em&gt;. It is a time-based job scheduler available in Unix-like OS. It usually looks like this:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

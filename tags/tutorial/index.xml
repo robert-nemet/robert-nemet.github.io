@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tutorial on DevCube</title>
+    <title>Tutorial on DevCube</title>
     <link>https://rnemet.dev/tags/tutorial/</link>
-    <description>Recent content in tutorial on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tutorial on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task vs Make - Final Thoughts</title>
       <link>https://rnemet.dev/posts/tools/tasklist_final/</link>
       <pubDate>Tue, 08 Aug 2023 21:03:40 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/tools/tasklist_final/</guid>
-      <description>So, after spending time moving from Make to Task, I decided. I&amp;rsquo;m going with Task in my future projects. Make will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.
-All this is my personal opinion. I&amp;rsquo;m not saying that Task is better than Make. I think that Task is better for me.
-Global Taskfile I have a global Task in my home directory for standard stuff.</description>
+      <description>&lt;p&gt;So, after spending time moving from &lt;em&gt;Make&lt;/em&gt; to &lt;em&gt;Task&lt;/em&gt;, I decided. I&amp;rsquo;m going with &lt;em&gt;Task&lt;/em&gt; in my future projects.
+&lt;em&gt;Make&lt;/em&gt; will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.&lt;/p&gt;
+&lt;p&gt;All this is my personal opinion. I&amp;rsquo;m not saying that &lt;em&gt;Task&lt;/em&gt; is better than &lt;em&gt;Make&lt;/em&gt;. I think that &lt;em&gt;Task&lt;/em&gt; is better for me.&lt;/p&gt;
+&lt;h3 id=&#34;global-taskfile&#34;&gt;Global Taskfile&lt;/h3&gt;
+&lt;p&gt;I have a global &lt;em&gt;Task&lt;/em&gt; in my home directory for standard stuff. It contains tasks to &lt;em&gt;update my tools&lt;/em&gt;, &lt;em&gt;run some diagnostics&lt;/em&gt;, etc.
+Because it is global, it is accessible from any directory. For example:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WIP: Taskfile instead of Makefile?</title>
       <link>https://rnemet.dev/posts/tools/taskfile/</link>
       <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/tools/taskfile/</guid>
-      <description>Recently, I stumbled upon a tool called Taskfile. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.
-Why Taskfile? First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate.</description>
+      <description>&lt;p&gt;Recently, I stumbled upon a tool called &lt;a href=&#34;https://taskfile.dev/#/&#34;&gt;Taskfile&lt;/a&gt;. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.&lt;/p&gt;
+&lt;h2 id=&#34;why-taskfile&#34;&gt;Why Taskfile?&lt;/h2&gt;
+&lt;p&gt;First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate. It can be tricky to write a good Makefile or to debug it. Reading also can be a challenge. Because of that, when I found out about Taskfile, I decided to try it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning eBPF: Maps, Ring Buffers and Output</title>
       <link>https://rnemet.dev/posts/ebpf/output-ebpf/</link>
       <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/ebpf/output-ebpf/</guid>
-      <description>I set the stage for learning eBPF. As mentioned in the previous post, eBPF is a technology that allows us to run code in the kernel. This is a compelling technology, but it comes with a few limitations. One of them is that we can&amp;rsquo;t use the standard output to print messages. At least not directly. Let&amp;rsquo;s explore how we can do this.
-Why can&amp;rsquo;t I use the standard input/output? Let&amp;rsquo;s look at this picture The eBPF programs are executed in the kernel.</description>
+      <description>&lt;p&gt;I set the stage for learning &lt;a href=&#34;https://rnemet.dev/posts/ebpf/learn-ebpf&#34;&gt;eBPF&lt;/a&gt;. As mentioned in the previous post, eBPF is a technology that allows us to run code in the kernel.
+This is a compelling technology, but it comes with a few limitations. One of them is that we can&amp;rsquo;t use the standard output to print messages. At least not directly. Let&amp;rsquo;s explore how we can do this.&lt;/p&gt;
+&lt;h2 id=&#34;why-cant-i-use-the-standard-inputoutput&#34;&gt;Why can&amp;rsquo;t I use the standard input/output?&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at this picture &lt;img alt=&#34;ebpf-workflow&#34; loading=&#34;lazy&#34; src=&#34;https://rnemet.dev/images/eBPF-short-overview.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning eBPF: Setting up the environment</title>
       <link>https://rnemet.dev/posts/ebpf/learn-ebpf/</link>
       <pubDate>Mon, 08 May 2023 09:40:16 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/ebpf/learn-ebpf/</guid>
-      <description>For a while, I&amp;rsquo;ve been following stuff around eBPF, and it is very promising. What I just wrote is an understatement. At first glance, eBPF is bringing many new possibilities to our toolbox. You can start with performance profiling, tracing, security, networking, etc. But let&amp;rsquo;s start from the beginning.
-By the way, I&amp;rsquo;m doing this on OSX. For eBPF, you need Linux kernel 4.1 or newer. So, I&amp;rsquo;ll be running some VMs.</description>
+      <description>&lt;p&gt;For a while, I&amp;rsquo;ve been following stuff around eBPF, and it is very promising. What I just wrote is an understatement. At first glance, eBPF is bringing many new possibilities to our toolbox.
+You can start with performance profiling, tracing, security, networking, etc. But let&amp;rsquo;s start from the beginning.&lt;/p&gt;
+&lt;p&gt;By the way, I&amp;rsquo;m doing this on OSX. For eBPF, you need Linux kernel 4.1 or newer. So, I&amp;rsquo;ll be running some VMs. This setup should be doable on Linux too. Code is available &lt;a href=&#34;https://github.com/robert-nemet/learn-ebpf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

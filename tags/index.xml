@@ -4,314 +4,247 @@
     <title>Tags on DevCube</title>
     <link>https://rnemet.dev/tags/</link>
     <description>Recent content in Tags on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Dec 2023 11:27:57 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 11:27:57 +0100</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ai</title>
+      <title>Ai</title>
       <link>https://rnemet.dev/tags/ai/</link>
       <pubDate>Sun, 10 Dec 2023 11:27:57 +0100</pubDate>
-      
       <guid>https://rnemet.dev/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>automation</title>
+      <title>Automation</title>
       <link>https://rnemet.dev/tags/automation/</link>
       <pubDate>Sun, 10 Dec 2023 11:27:57 +0100</pubDate>
-      
       <guid>https://rnemet.dev/tags/automation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>codiumai</title>
+      <title>Codiumai</title>
       <link>https://rnemet.dev/tags/codiumai/</link>
       <pubDate>Sun, 10 Dec 2023 11:27:57 +0100</pubDate>
-      
       <guid>https://rnemet.dev/tags/codiumai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pr-agent</title>
+      <title>Pr-Agent</title>
       <link>https://rnemet.dev/tags/pr-agent/</link>
       <pubDate>Sun, 10 Dec 2023 11:27:57 +0100</pubDate>
-      
       <guid>https://rnemet.dev/tags/pr-agent/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloud</title>
+      <title>Cloud</title>
       <link>https://rnemet.dev/tags/cloud/</link>
       <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/cloud/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gcp</title>
+      <title>Gcp</title>
       <link>https://rnemet.dev/tags/gcp/</link>
       <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/gcp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>networking</title>
+      <title>Networking</title>
       <link>https://rnemet.dev/tags/networking/</link>
       <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/networking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>terraform</title>
+      <title>Terraform</title>
       <link>https://rnemet.dev/tags/terraform/</link>
       <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/terraform/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>terragrunt</title>
+      <title>Terragrunt</title>
       <link>https://rnemet.dev/tags/terragrunt/</link>
       <pubDate>Sun, 17 Sep 2023 08:54:32 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/terragrunt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vpc</title>
+      <title>Vpc</title>
       <link>https://rnemet.dev/tags/vpc/</link>
       <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/vpc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>firewall</title>
+      <title>Firewall</title>
       <link>https://rnemet.dev/tags/firewall/</link>
       <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/firewall/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tasklist</title>
+      <title>Tasklist</title>
       <link>https://rnemet.dev/tags/tasklist/</link>
       <pubDate>Tue, 08 Aug 2023 21:03:40 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/tasklist/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tutorial</title>
+      <title>Tutorial</title>
       <link>https://rnemet.dev/tags/tutorial/</link>
       <pubDate>Tue, 08 Aug 2023 21:03:40 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/tutorial/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ebpf</title>
+      <title>Ebpf</title>
       <link>https://rnemet.dev/tags/ebpf/</link>
       <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/ebpf/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kernel</title>
+      <title>Kernel</title>
       <link>https://rnemet.dev/tags/kernel/</link>
       <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/kernel/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://rnemet.dev/tags/linux/</link>
       <pubDate>Sat, 10 Jun 2023 12:53:57 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>basics</title>
+      <title>Basics</title>
       <link>https://rnemet.dev/tags/basics/</link>
       <pubDate>Mon, 01 May 2023 21:32:54 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/basics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://rnemet.dev/tags/docker/</link>
       <pubDate>Mon, 01 May 2023 21:32:54 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker-compose</title>
+      <title>Docker-Compose</title>
       <link>https://rnemet.dev/tags/docker-compose/</link>
       <pubDate>Mon, 01 May 2023 21:32:54 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/docker-compose/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>work-life</title>
+      <title>Work-Life</title>
       <link>https://rnemet.dev/tags/work-life/</link>
       <pubDate>Sun, 23 Apr 2023 08:00:44 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/work-life/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
+      <title>Kubernetes</title>
       <link>https://rnemet.dev/tags/kubernetes/</link>
       <pubDate>Fri, 14 Apr 2023 15:43:46 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>grafana</title>
+      <title>Grafana</title>
       <link>https://rnemet.dev/tags/grafana/</link>
       <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/grafana/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>k8s</title>
+      <title>K8s</title>
       <link>https://rnemet.dev/tags/k8s/</link>
       <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/k8s/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>metrics</title>
+      <title>Metrics</title>
       <link>https://rnemet.dev/tags/metrics/</link>
       <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/metrics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>prometheus</title>
+      <title>Prometheus</title>
       <link>https://rnemet.dev/tags/prometheus/</link>
       <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/prometheus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pod</title>
+      <title>Pod</title>
       <link>https://rnemet.dev/tags/pod/</link>
       <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/pod/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>klock</title>
+      <title>Klock</title>
       <link>https://rnemet.dev/tags/klock/</link>
       <pubDate>Sat, 01 Oct 2022 18:58:02 +0200</pubDate>
-      
       <guid>https://rnemet.dev/tags/klock/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>liquibase</title>
-      <link>https://rnemet.dev/tags/liquibase/</link>
-      <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/liquibase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k3d</title>
-      <link>https://rnemet.dev/tags/k3d/</link>
-      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/k3d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>k3s</title>
-      <link>https://rnemet.dev/tags/k3s/</link>
-      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/k3s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>local-k8s</title>
-      <link>https://rnemet.dev/tags/local-k8s/</link>
-      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/tags/local-k8s/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shell</title>
-      <link>https://rnemet.dev/tags/shell/</link>
-      <pubDate>Mon, 15 Feb 2021 11:30:03 +0000</pubDate>
-      
-      <guid>https://rnemet.dev/tags/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cli</title>
-      <link>https://rnemet.dev/tags/cli/</link>
-      <pubDate>Fri, 01 Jan 2021 11:30:03 +0000</pubDate>
-      
-      <guid>https://rnemet.dev/tags/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ci/cd</title>
+      <title>Ci/Cd</title>
       <link>https://rnemet.dev/tags/ci/cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
       <guid>https://rnemet.dev/tags/ci/cd/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Liquibase</title>
+      <link>https://rnemet.dev/tags/liquibase/</link>
+      <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
+      <guid>https://rnemet.dev/tags/liquibase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K3d</title>
+      <link>https://rnemet.dev/tags/k3d/</link>
+      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
+      <guid>https://rnemet.dev/tags/k3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K3s</title>
+      <link>https://rnemet.dev/tags/k3s/</link>
+      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
+      <guid>https://rnemet.dev/tags/k3s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local-K8s</title>
+      <link>https://rnemet.dev/tags/local-k8s/</link>
+      <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
+      <guid>https://rnemet.dev/tags/local-k8s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://rnemet.dev/tags/shell/</link>
+      <pubDate>Mon, 15 Feb 2021 11:30:03 +0000</pubDate>
+      <guid>https://rnemet.dev/tags/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cli</title>
+      <link>https://rnemet.dev/tags/cli/</link>
+      <pubDate>Fri, 01 Jan 2021 11:30:03 +0000</pubDate>
+      <guid>https://rnemet.dev/tags/cli/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

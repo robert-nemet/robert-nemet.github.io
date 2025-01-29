@@ -1,89 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>docker on DevCube</title>
+    <title>Docker on DevCube</title>
     <link>https://rnemet.dev/tags/docker/</link>
-    <description>Recent content in docker on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Docker on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 May 2023 21:32:54 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 21:32:54 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Docker Goodies: Init and Watch</title>
       <link>https://rnemet.dev/posts/docker/new_stuff_init_watch/</link>
       <pubDate>Mon, 01 May 2023 21:32:54 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/new_stuff_init_watch/</guid>
-      <description>Recently Docker brought some new stuff that I found very useful for developers. They are still in the experimental phase but are already very useful. Try them and give your feedback to the Docker team. The code I&amp;rsquo;m using for this is available here.
-Let&amp;rsquo;s start&amp;hellip;
-Init Writing a Dockerfile when starting with a new application is tedious. Why? Because we are repeating most of the stuff over and over again.</description>
+      <description>&lt;p&gt;Recently Docker brought some new stuff that I found very useful for developers. They are still in the experimental phase but are already very useful.
+Try them and give your feedback to the Docker team. The code I&amp;rsquo;m using for this is &lt;a href=&#34;https://github.com/robert-nemet/docker-experiments&#34;&gt;available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;init&#34;&gt;Init&lt;/h2&gt;
+&lt;p&gt;Writing a &lt;em&gt;Dockerfile&lt;/em&gt; when starting with a new application is tedious. Why? Because we are repeating most of the stuff over and over again. So, in the
+end, we reach to copy/paste solution. Of course, copy/paste needs to be modified to fit an application&amp;rsquo;s needs. I do not say that copy/paste is terrible, but with it,
+we miss new stuff that Docker brings to us. Even seasoned developers miss stuff. If we do not do it every day, we forget. Because of that, the Docker team brought
+us a new command called &lt;code&gt;init&lt;/code&gt;. The &lt;code&gt;init&lt;/code&gt; is not new but is still in beta. This time with more improvements.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
       <link>https://rnemet.dev/posts/docker/image_k8s/</link>
       <pubDate>Fri, 14 Apr 2023 15:43:46 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/image_k8s/</guid>
-      <description>After building a Docker image faster, I wanted to build it for the K8s cluster. Running the container on the local machine isn&amp;rsquo;t the same as running it on a cluster. I&amp;rsquo;m packaging a Go application in my example. But the same principles apply to any other language.
-Starting Dockerfile I&amp;rsquo;m starting with the following Dockerfile(Dockerfile_1):
-ARG GO_VERSION=1.20.3 FROM golang:${GO_VERSION}-buster as builder WORKDIR /app COPY go.mod go.sum /app/ RUN go mod download -x COPY .</description>
+      <description>&lt;p&gt;After building &lt;a href=&#34;https://rnemet.dev/posts/docker/building_image_fast/&#34;&gt;a Docker image faster&lt;/a&gt;, I wanted to build it for the K8s cluster. Running the container on
+the local machine isn&amp;rsquo;t the same as running it on a cluster. I&amp;rsquo;m packaging a Go application in my example. But the same principles apply to any other language.&lt;/p&gt;
+&lt;h2 id=&#34;starting-dockerfile&#34;&gt;Starting Dockerfile&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m starting with the following Dockerfile(Dockerfile_1):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-dockerfile&#34; data-lang=&#34;dockerfile&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ARG&lt;/span&gt; GO_VERSION&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;.20.3&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; golang:${GO_VERSION}-buster as builder&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; /app&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; go.mod go.sum /app/&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;RUN&lt;/span&gt; go mod download -x&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; . /app/&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;RUN&lt;/span&gt; go build -o app&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; debian:buster&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WORKDIR&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; /app&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;COPY&lt;/span&gt; --from&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;builder /app/app /app/&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;ENTRYPOINT&lt;/span&gt; [ &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/app/app&amp;#34;&lt;/span&gt; ]&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And I build it with the following command:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building Docker Image Faster</title>
       <link>https://rnemet.dev/posts/docker/building_image_fast/</link>
       <pubDate>Sat, 08 Apr 2023 22:14:51 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/building_image_fast/</guid>
-      <description>During building services, we often need to build docker images. We do it multiple times a day. It can be a time-consuming task. Locally we only notice it a little, but in CI/CD pipelines, it can be a problem.
-In this post, I will show you how to speed up the process. I will show you how to use a cache, layer your Dockerfile, and use multi-stage builds, to make your builds faster.</description>
+      <description>&lt;p&gt;During building services, we often need to build docker images. We do it multiple times a day. It can be a time-consuming task. Locally we only notice it a little, but in CI/CD pipelines, it can be a problem.&lt;/p&gt;
+&lt;p&gt;In this post, I will show you how to speed up the process. I will show you how to use a cache, layer your Dockerfile, and use multi-stage builds, to make your builds faster.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Create a Local Development Environment with Docker Compose</title>
       <link>https://rnemet.dev/posts/docker/local_development_environment/</link>
       <pubDate>Sat, 01 Apr 2023 11:32:11 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/local_development_environment/</guid>
-      <description>As a developer, when working on a service, you face a problem with the working environment. And when I say working environment, I do not think about IDEs, stacks, OS, libraries, etc. I’m thinking about the environment where our services live.
-These days, our services are usually packed inside some container and put in some kind of distributed system. Most containers and other moving parts are controlled by Kubernetes, Nomad, and similar orchestration systems.</description>
+      <description>&lt;p&gt;As a developer, when working on a service, you face a problem with the working environment. And when I say working environment, I do not think about IDEs, stacks, OS, libraries, etc. I’m thinking about the environment where our services live.&lt;/p&gt;
+&lt;p&gt;These days, our services are usually packed inside some container and put in some kind of distributed system. Most containers and other moving parts are
+controlled by Kubernetes, Nomad, and similar orchestration systems.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docker-Compose: How To Rebuild Working Application</title>
       <link>https://rnemet.dev/posts/docker/compose-rebuild/</link>
       <pubDate>Wed, 02 Feb 2022 20:04:19 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/compose-rebuild/</guid>
-      <description>While developing application and using docker-compose one question quickly arise:
-How to properly rebuild application?
-Once an image is built new one will not be built with the same tag as long it exists in a local cache. The compose builds an image it names it with the pattern &amp;lt;context&amp;gt;_&amp;lt;service_name&amp;gt;:latest.
-Where:
-Context is directory name where compose YAML is Service is service name in compose YAML file This means that you can stop or takedown the compose application, next time you run it your images will not be rebuilt if they already exist.</description>
+      <description>&lt;p&gt;While developing application and using docker-compose one question quickly arise:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to properly rebuild application?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once an image is built new one will not be built with the same tag as long it exists in a local cache.
+The compose builds an image it names it with the pattern &lt;code&gt;&amp;lt;context&amp;gt;_&amp;lt;service_name&amp;gt;:latest&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Context is directory name where compose YAML is&lt;/li&gt;
+&lt;li&gt;Service is service name in compose YAML file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This means that you can stop or takedown the compose application, next time you run it your images will not be
+rebuilt if they already exist. Anyway, we aim to rebuild/restart only parts of the system that are changed.
+Once the compose application is running, we only rebuild the service we are working on.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docker-Compose: What Every Developer Needs To Know</title>
       <link>https://rnemet.dev/posts/docker/compose-app/</link>
       <pubDate>Wed, 26 Jan 2022 22:12:24 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/compose-app/</guid>
-      <description>If you are developing microservices, docker-compose(compose), can be a very powerful tool. Think of a case with an API service and database. Creating and maintaining a database with the use of the Liquibase.
-Initial plan &amp;hellip;would be:
-start DB run the Liquibase to make changes start an app Adding docker-compose as a driver to utilize this process:
-sequenceDiagram autonumber Docker --&gt;&gt; PostgresDB: start PostgresDB --&gt;&gt; PostgresDB: wait to finish start PostgresDB --&gt;&gt; Docker: done Docker --&gt;&gt; LiquibasePG: start LiquibasePGDB --&gt;&gt; PostgresDB: execute changeLog LiquibasePGDB --&gt;&gt; Docker: done Docker --&gt;&gt; Echo: start PostgresDB Setup This is the simplest step.</description>
+      <description>&lt;p&gt;If you are developing microservices, docker-compose(compose), can be a very powerful tool.
+Think of a case with an API service and database. Creating and maintaining a database with the use
+of &lt;a href=&#34;https://liquibase.org/&#34;&gt;the Liquibase&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;initial-plan&#34;&gt;Initial plan&lt;/h3&gt;
+&lt;p&gt;&amp;hellip;would be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;start DB&lt;/li&gt;
+&lt;li&gt;run the Liquibase to make changes&lt;/li&gt;
+&lt;li&gt;start an app&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Adding docker-compose as a driver to utilize this process:&lt;/p&gt;
+&lt;script async type=&#34;application/javascript&#34; src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;
+  var config = {
+    startOnLoad:true,
+    theme:&#39;neutral&#39;,
+    align:&#39;left&#39;
+  };
+  mermaid.initialize(config);
+&lt;/script&gt;
+
+&lt;div class=&#34;mermaid&#34;&gt;
+  
+sequenceDiagram
+    autonumber
+    Docker --&gt;&gt; PostgresDB: start
+    PostgresDB --&gt;&gt; PostgresDB: wait to finish start
+    PostgresDB --&gt;&gt; Docker: done
+    Docker --&gt;&gt; LiquibasePG: start
+    LiquibasePGDB --&gt;&gt; PostgresDB: execute changeLog
+    LiquibasePGDB --&gt;&gt; Docker: done
+    Docker --&gt;&gt; Echo: start
+
+&lt;/div&gt;
+&lt;h3 id=&#34;postgresdb-setup&#34;&gt;PostgresDB Setup&lt;/h3&gt;
+&lt;p&gt;This is the simplest step. According to &lt;a href=&#34;https://hub.docker.com/_/postgres&#34;&gt;the docs&lt;/a&gt;, this would be enough:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docker-Compose: Intro</title>
       <link>https://rnemet.dev/posts/docker/compose-intro/</link>
       <pubDate>Sat, 08 Jan 2022 13:42:10 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/docker/compose-intro/</guid>
-      <description>Working with containers is a necessity today for developers. You will likely need to work with some kind of storage or interact with some external service, like Solr or Postgres.
-You can install the required service on your local machine, which comes with the burden of choosing the correct installation, configuration, etc&amp;hellip; Nothing too complicated but takes time.
-Docker and Containers In short, the container is an isolated process on the host machine.</description>
+      <description>&lt;p&gt;Working with containers is a necessity today for developers. You will likely need
+to work with some kind of storage or interact with some external service, like Solr or Postgres.&lt;/p&gt;
+&lt;p&gt;You can install the required service on your local machine, which comes with the burden of choosing
+the correct installation, configuration, etc&amp;hellip; Nothing too complicated but takes time.&lt;/p&gt;
+&lt;h2 id=&#34;docker-and-containers&#34;&gt;Docker and Containers&lt;/h2&gt;
+&lt;p&gt;In short, the container is an isolated process on the host machine. It runs in the isolated file system,
+a container image. Docker would be a platform, a set of tools, for building, running, sharing applications packed
+in the container image.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

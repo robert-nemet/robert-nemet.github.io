@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>work-life on DevCube</title>
+    <title>Work-Life on DevCube</title>
     <link>https://rnemet.dev/tags/work-life/</link>
-    <description>Recent content in work-life on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Work-Life on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Apr 2023 08:00:44 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/work-life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 08:00:44 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/work-life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Outsourcing Killing Developers</title>
       <link>https://rnemet.dev/posts/office/coder_developer/</link>
       <pubDate>Sun, 23 Apr 2023 08:00:44 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/office/coder_developer/</guid>
-      <description>I live and work in one of the Balkan countries, Belgrade, Serbia. After the sad &amp;rsquo;90s, all countries in the region try to catch up with the rest of the world. That led to a boom in IT. A large portion of IT is outsourcing companies. Some companies are domestic, and some are foreign. Also, some companies opened their R&amp;amp;D centers in the region. Small and big as well. There was and still is a large number of startups.</description>
+      <description>&lt;p&gt;I live and work in one of the Balkan countries, Belgrade, Serbia. After the sad &amp;rsquo;90s, all countries in the region try to catch up
+with the rest of the world. That led to a boom in IT. A large portion of IT is outsourcing companies. Some companies are domestic,
+and some are foreign. Also, some companies opened their R&amp;amp;D centers in the region. Small and big as well. There was and still is
+a large number of startups.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>prometheus on DevCube</title>
+    <title>Prometheus on DevCube</title>
     <link>https://rnemet.dev/tags/prometheus/</link>
-    <description>Recent content in prometheus on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Prometheus on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Mar 2023 21:10:05 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 21:10:05 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example: API Metrics with Prometheus and Grafana</title>
       <link>https://rnemet.dev/posts/k8s/example_implement_metrics_api/</link>
       <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/example_implement_metrics_api/</guid>
-      <description>This post is a follow-up to the previous posts on designing metrics for event-driven systems. This humble post is a practical example of how to implement the metrics API and how to use it to create a dashboard in Grafana. I&amp;rsquo;m not using Kubernetes but Docker Compose; the concepts are the same. The reason is simplicity.
-The code is available on this GitHub repository.
-The Scenario The setup comprises two API services(app and beta) and a database(postgres).</description>
+      <description>&lt;p&gt;This post is a follow-up to the previous posts on &lt;a href=&#34;https://rnemet.dev/tags/metrics/&#34;&gt;designing metrics for event-driven systems&lt;/a&gt;. This humble post is a practical example of how to implement the metrics API and how to use it to create a dashboard in Grafana.
+I&amp;rsquo;m not using Kubernetes but Docker Compose; the concepts are the same. The reason is simplicity.&lt;/p&gt;
+&lt;p&gt;The code is available on &lt;a href=&#34;https://github.com/robert-nemet/dc-playground&#34;&gt;this GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-scenario&#34;&gt;The Scenario&lt;/h2&gt;
+&lt;p&gt;The setup comprises two API services(&lt;code&gt;app&lt;/code&gt; and &lt;code&gt;beta&lt;/code&gt;) and a database(&lt;code&gt;postgres&lt;/code&gt;). Liquibase creates the database schema.
+API services are two instances of the same service. They connect to the same database.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Design Metrics With Prometheus Metric Types: the USE Method</title>
       <link>https://rnemet.dev/posts/k8s/metrics_use_method/</link>
       <pubDate>Mon, 20 Mar 2023 20:38:42 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/metrics_use_method/</guid>
-      <description>This is the third part of a series about designing metrics for event-driven systems. You can check the first part and the second part of this series before proceeding.
-While I discussed the general principles of designing metrics in the first part, I explained Prometheus metric types in the second part. I applied them as the RED method in the second part. In this article, I&amp;rsquo;ll explain the USE method with Prometheus.</description>
+      <description>&lt;p&gt;This is the third part of a series about designing metrics for event-driven systems. You can check &lt;a href=&#34;https://rnemet.dev/posts/k8s/metrics/&#34;&gt;the first part&lt;/a&gt; and &lt;a href=&#34;https://rnemet.dev/posts/k8s/metrics_types/&#34;&gt;the second part&lt;/a&gt; of this series before
+proceeding.&lt;/p&gt;
+&lt;p&gt;While I discussed the general principles of designing metrics in the first part, I explained Prometheus
+metric types in the second part. I applied them as the RED method in the second part. In this article, I&amp;rsquo;ll explain the USE method with Prometheus. Finally, a short discussion about the Four Golden Signals and a conclusion about all the methods.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Design Metrics With Prometheus Metric Types</title>
       <link>https://rnemet.dev/posts/k8s/metrics_types/</link>
       <pubDate>Wed, 08 Mar 2023 22:23:12 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/metrics_types/</guid>
-      <description>This is the second part of a series about designing metrics for event-driven systems. You can check the first part of this series.
-Prometheus is open source system for monitoring and alerting. It is a part of CNCF (Cloud Native Computing Foundation) and it is one of the most popular monitoring systems. You can say it is a de facto standard for monitoring in Kubernetes.
-To design metrics with Prometheus, you need to understand its metric types.</description>
+      <description>&lt;p&gt;This is the second part of a series about designing metrics for event-driven systems. You can check &lt;a href=&#34;https://rnemet.dev/posts/k8s/metrics/&#34;&gt;the first part&lt;/a&gt; of this series.&lt;/p&gt;
+&lt;p&gt;Prometheus is open source system for monitoring and alerting. It is a part of CNCF (Cloud Native Computing Foundation) and it is one of the most popular monitoring systems. You can say it is a de facto standard for monitoring in Kubernetes.&lt;/p&gt;
+&lt;p&gt;To design metrics with Prometheus, you need to understand its metric types. In this article, I&amp;rsquo;ll explain Prometheus metric types and how to design metrics with them.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

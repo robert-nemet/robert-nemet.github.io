@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tasklist on DevCube</title>
+    <title>Tasklist on DevCube</title>
     <link>https://rnemet.dev/tags/tasklist/</link>
-    <description>Recent content in tasklist on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tasklist on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/tasklist/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 21:03:40 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/tasklist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task vs Make - Final Thoughts</title>
       <link>https://rnemet.dev/posts/tools/tasklist_final/</link>
       <pubDate>Tue, 08 Aug 2023 21:03:40 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/tools/tasklist_final/</guid>
-      <description>So, after spending time moving from Make to Task, I decided. I&amp;rsquo;m going with Task in my future projects. Make will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.
-All this is my personal opinion. I&amp;rsquo;m not saying that Task is better than Make. I think that Task is better for me.
-Global Taskfile I have a global Task in my home directory for standard stuff.</description>
+      <description>&lt;p&gt;So, after spending time moving from &lt;em&gt;Make&lt;/em&gt; to &lt;em&gt;Task&lt;/em&gt;, I decided. I&amp;rsquo;m going with &lt;em&gt;Task&lt;/em&gt; in my future projects.
+&lt;em&gt;Make&lt;/em&gt; will not be removed from my projects immediately, but I will not use it in the future. Let me tell you why.&lt;/p&gt;
+&lt;p&gt;All this is my personal opinion. I&amp;rsquo;m not saying that &lt;em&gt;Task&lt;/em&gt; is better than &lt;em&gt;Make&lt;/em&gt;. I think that &lt;em&gt;Task&lt;/em&gt; is better for me.&lt;/p&gt;
+&lt;h3 id=&#34;global-taskfile&#34;&gt;Global Taskfile&lt;/h3&gt;
+&lt;p&gt;I have a global &lt;em&gt;Task&lt;/em&gt; in my home directory for standard stuff. It contains tasks to &lt;em&gt;update my tools&lt;/em&gt;, &lt;em&gt;run some diagnostics&lt;/em&gt;, etc.
+Because it is global, it is accessible from any directory. For example:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>WIP: Taskfile instead of Makefile?</title>
       <link>https://rnemet.dev/posts/tools/taskfile/</link>
       <pubDate>Sat, 29 Jul 2023 15:32:51 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/tools/taskfile/</guid>
-      <description>Recently, I stumbled upon a tool called Taskfile. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.
-Why Taskfile? First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate.</description>
+      <description>&lt;p&gt;Recently, I stumbled upon a tool called &lt;a href=&#34;https://taskfile.dev/#/&#34;&gt;Taskfile&lt;/a&gt;. It is a task runner, similar to Makefile, but with many improvements. I decided to try it and see if it can replace my Makefiles.&lt;/p&gt;
+&lt;h2 id=&#34;why-taskfile&#34;&gt;Why Taskfile?&lt;/h2&gt;
+&lt;p&gt;First of all, Makefile is a good tool. Today, you can use it on any platform, not just Linux. It is a standard tool for running tasks. It is flexible and powerful. My relation with it is love/hate. It can be tricky to write a good Makefile or to debug it. Reading also can be a challenge. Because of that, when I found out about Taskfile, I decided to try it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

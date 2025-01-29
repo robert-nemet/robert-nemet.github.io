@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pr-agent on DevCube</title>
+    <title>Pr-Agent on DevCube</title>
     <link>https://rnemet.dev/tags/pr-agent/</link>
-    <description>Recent content in pr-agent on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Pr-Agent on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Dec 2023 11:27:57 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/pr-agent/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 11:27:57 +0100</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/pr-agent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating Pull Request Reviews With CodiumAI PR-Agent</title>
       <link>https://rnemet.dev/posts/ai/codium-pragent/</link>
       <pubDate>Sun, 10 Dec 2023 11:27:57 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/ai/codium-pragent/</guid>
-      <description>Motivation If you are a developer, you know how much time you spend on pull request reviews. We all try to write the best code we can. When we are done, we ask our team members to review our code. Sometimes, making a pull request is more complex than it sounds. Over time, teams learn that pull requests need to be standardized to speed things up and improve communication. That is why we have a pull request template, for example.</description>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;If you are a developer, you know how much time you spend on pull request reviews. We all try to write the best code we can. When we are done, we ask our
+team members to review our code. Sometimes, making a pull request is more complex than it sounds. Over time, teams learn that pull requests need to be standardized to speed things up and improve
+communication. That is why we have a pull request template, for example. Sometimes, even that is not enough. Because the speed
+at which the code is sent out is increasing. More pull requests are created. And the number of pull requests that need to be reviewed is expanding. Ah&amp;hellip;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

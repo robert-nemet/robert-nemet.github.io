@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>vpc on DevCube</title>
+    <title>Vpc on DevCube</title>
     <link>https://rnemet.dev/tags/vpc/</link>
-    <description>Recent content in vpc on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Vpc on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Sep 2023 21:32:48 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/vpc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 21:32:48 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/vpc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GCP With Terraform: Refactor with Modules</title>
       <link>https://rnemet.dev/posts/gcp/gcp_tf_refactor/</link>
       <pubDate>Tue, 05 Sep 2023 21:32:48 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/gcp/gcp_tf_refactor/</guid>
-      <description>This post is the fourth part of the series about using Terraform to manage GCP resources. In the first part, I did a basic setup of the project: remote state file, state file encryption, a bucket creation. In the second part, I created VPC and subnets and added some basic firewall rules and VMs. In the third part, I added more VPC, subnets, firewall rules, and VMs. In this part, I will refactor the project to make it more manageable.</description>
+      <description>&lt;p&gt;This post is the fourth part of the series about using Terraform to manage GCP resources. In the &lt;a href=&#34;https://rnemet.dev/posts/gcp/start_with_gcp/&#34;&gt;first part&lt;/a&gt;, I did a basic setup of the project:
+remote state file, state file encryption, a bucket creation. In the &lt;a href=&#34;https://rnemet.dev/posts/gcp/gcp-tf-vpc/&#34;&gt;second part&lt;/a&gt;, I created VPC and subnets and added some basic firewall rules
+and VMs. In the &lt;a href=&#34;https://rnemet.dev/posts/gcp/gcp-tf-vpc-firewall_2/&#34;&gt;third part&lt;/a&gt;, I added more VPC, subnets, firewall rules, and VMs. In this part, I will refactor the project to make it more
+manageable. It should be more DRY and easier to maintain while supporting multiple environments.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Exploring GCP With Terraform: VPC Firewall Rules, part 2</title>
       <link>https://rnemet.dev/posts/gcp/gcp_tf_vpc_firewall_2/</link>
       <pubDate>Mon, 28 Aug 2023 21:48:19 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/gcp/gcp_tf_vpc_firewall_2/</guid>
       <description>GCP Networking with Terraform, part 2: Firewall</description>
     </item>
-    
     <item>
       <title>Exploring GCP With Terraform: VPCs, Firewall Rules And VMs</title>
       <link>https://rnemet.dev/posts/gcp/gcp_tf_vpc/</link>
       <pubDate>Sun, 20 Aug 2023 21:10:56 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/gcp/gcp_tf_vpc/</guid>
       <description>GCP Networking with Terraform, part 1</description>
     </item>
-    
   </channel>
 </rss>

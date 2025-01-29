@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>cli on DevCube</title>
+    <title>Cli on DevCube</title>
     <link>https://rnemet.dev/tags/cli/</link>
-    <description>Recent content in cli on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cli on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rnemet.dev/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to rename multiple files</title>
       <link>https://rnemet.dev/posts/rename_files/</link>
       <pubDate>Fri, 01 Jan 2021 11:30:03 +0000</pubDate>
-      
       <guid>https://rnemet.dev/posts/rename_files/</guid>
-      <description>A simple problem:
-Rename files with extension xyz which names ends with file. They need to start with document- and have extension txt For example if a file is 1-file.xyz it should be renamed to document-1.txt
-From this:
-&amp;gt; ls -al total 0 drwxr-xr-x 12 owner staff 384 Jan 1 19:26 . drwxr-xr-x 7 owner staff 224 Oct 23 11:32 .. -rw-r--r-- 1 owner staff 0 Jan 1 19:26 1-file.xyz -rw-r--r-- 1 owner staff 0 Jan 1 19:26 10-file.</description>
+      <description>&lt;p&gt;A simple problem:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rename files with extension &lt;code&gt;xyz&lt;/code&gt; which names ends with &lt;code&gt;file&lt;/code&gt;. They need to start with &lt;code&gt;document-&lt;/code&gt; and have extension &lt;code&gt;txt&lt;/code&gt;
+For example if a file is &lt;code&gt;1-file.xyz&lt;/code&gt; it should be renamed to &lt;code&gt;document-1.txt&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-cli&#34; data-lang=&#34;cli&#34;&gt;&amp;gt; ls -al
+total 0
+drwxr-xr-x  12 owner  staff  384 Jan  1 19:26 .
+drwxr-xr-x   7 owner  staff  224 Oct 23 11:32 ..
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 1-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 10-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 2-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 3-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 4-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 5-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 6-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 7-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 8-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 9-file.xyz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to this:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

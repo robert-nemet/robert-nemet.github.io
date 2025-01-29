@@ -1,83 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>k8s on DevCube</title>
+    <title>K8s on DevCube</title>
     <link>https://rnemet.dev/tags/k8s/</link>
-    <description>Recent content in k8s on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in K8s on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Mar 2023 21:10:05 +0200</lastBuildDate><atom:link href="https://rnemet.dev/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 21:10:05 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example: API Metrics with Prometheus and Grafana</title>
       <link>https://rnemet.dev/posts/k8s/example_implement_metrics_api/</link>
       <pubDate>Tue, 28 Mar 2023 21:10:05 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/example_implement_metrics_api/</guid>
-      <description>This post is a follow-up to the previous posts on designing metrics for event-driven systems. This humble post is a practical example of how to implement the metrics API and how to use it to create a dashboard in Grafana. I&amp;rsquo;m not using Kubernetes but Docker Compose; the concepts are the same. The reason is simplicity.
-The code is available on this GitHub repository.
-The Scenario The setup comprises two API services(app and beta) and a database(postgres).</description>
+      <description>&lt;p&gt;This post is a follow-up to the previous posts on &lt;a href=&#34;https://rnemet.dev/tags/metrics/&#34;&gt;designing metrics for event-driven systems&lt;/a&gt;. This humble post is a practical example of how to implement the metrics API and how to use it to create a dashboard in Grafana.
+I&amp;rsquo;m not using Kubernetes but Docker Compose; the concepts are the same. The reason is simplicity.&lt;/p&gt;
+&lt;p&gt;The code is available on &lt;a href=&#34;https://github.com/robert-nemet/dc-playground&#34;&gt;this GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-scenario&#34;&gt;The Scenario&lt;/h2&gt;
+&lt;p&gt;The setup comprises two API services(&lt;code&gt;app&lt;/code&gt; and &lt;code&gt;beta&lt;/code&gt;) and a database(&lt;code&gt;postgres&lt;/code&gt;). Liquibase creates the database schema.
+API services are two instances of the same service. They connect to the same database.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Design Metrics With Prometheus Metric Types: the USE Method</title>
       <link>https://rnemet.dev/posts/k8s/metrics_use_method/</link>
       <pubDate>Mon, 20 Mar 2023 20:38:42 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/metrics_use_method/</guid>
-      <description>This is the third part of a series about designing metrics for event-driven systems. You can check the first part and the second part of this series before proceeding.
-While I discussed the general principles of designing metrics in the first part, I explained Prometheus metric types in the second part. I applied them as the RED method in the second part. In this article, I&amp;rsquo;ll explain the USE method with Prometheus.</description>
+      <description>&lt;p&gt;This is the third part of a series about designing metrics for event-driven systems. You can check &lt;a href=&#34;https://rnemet.dev/posts/k8s/metrics/&#34;&gt;the first part&lt;/a&gt; and &lt;a href=&#34;https://rnemet.dev/posts/k8s/metrics_types/&#34;&gt;the second part&lt;/a&gt; of this series before
+proceeding.&lt;/p&gt;
+&lt;p&gt;While I discussed the general principles of designing metrics in the first part, I explained Prometheus
+metric types in the second part. I applied them as the RED method in the second part. In this article, I&amp;rsquo;ll explain the USE method with Prometheus. Finally, a short discussion about the Four Golden Signals and a conclusion about all the methods.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Design Metrics With Prometheus Metric Types</title>
       <link>https://rnemet.dev/posts/k8s/metrics_types/</link>
       <pubDate>Wed, 08 Mar 2023 22:23:12 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/metrics_types/</guid>
-      <description>This is the second part of a series about designing metrics for event-driven systems. You can check the first part of this series.
-Prometheus is open source system for monitoring and alerting. It is a part of CNCF (Cloud Native Computing Foundation) and it is one of the most popular monitoring systems. You can say it is a de facto standard for monitoring in Kubernetes.
-To design metrics with Prometheus, you need to understand its metric types.</description>
+      <description>&lt;p&gt;This is the second part of a series about designing metrics for event-driven systems. You can check &lt;a href=&#34;https://rnemet.dev/posts/k8s/metrics/&#34;&gt;the first part&lt;/a&gt; of this series.&lt;/p&gt;
+&lt;p&gt;Prometheus is open source system for monitoring and alerting. It is a part of CNCF (Cloud Native Computing Foundation) and it is one of the most popular monitoring systems. You can say it is a de facto standard for monitoring in Kubernetes.&lt;/p&gt;
+&lt;p&gt;To design metrics with Prometheus, you need to understand its metric types. In this article, I&amp;rsquo;ll explain Prometheus metric types and how to design metrics with them.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Understanding Event-Driven Metrics</title>
       <link>https://rnemet.dev/posts/k8s/metrics/</link>
       <pubDate>Wed, 01 Mar 2023 20:14:05 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/metrics/</guid>
-      <description>Event-driven systems at the moment are dominating when it comes to software system design. Some of the characteristics of event-driven systems are asynchronous actions and eventual consistency.
-In traditional systems, each call will produce an immediate response. While in event-driven systems(EDS) the response is not immediate but it is made when the system is ready to process a call. The EDS is not easy to debug or predict the next state.</description>
+      <description>&lt;p&gt;Event-driven systems at the moment are dominating when it comes to software system design. Some of the characteristics of event-driven systems are &lt;em&gt;asynchronous
+actions&lt;/em&gt; and &lt;em&gt;eventual consistency&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In traditional systems, each call will produce an immediate response. While in event-driven systems(EDS) the response is not immediate but it is made when
+the system is ready to process a call. The EDS is not easy to debug or predict the next state. But we can try to understand what is happening in the system by looking
+at the events produced by the system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Practical k8s: Pods</title>
       <link>https://rnemet.dev/posts/practical_k8s/pods/</link>
       <pubDate>Mon, 24 Oct 2022 20:46:44 +0200</pubDate>
-      
       <guid>https://rnemet.dev/posts/practical_k8s/pods/</guid>
-      <description>A Pod would be the smallest deployable unit one can create and manage inside Kubernetes(K8s). In practice, rarely you create a Pod directly. Instead, one would create a Deployment, a StatefulSet, a DaemonSet, a Job, or a CronJob. These are higher-level constructs that would create Pods for you.
-Here I&amp;rsquo;m covering common tasks that one would do with a Pod in daily work, like getting logs, opening a shell inside a container, debugging a Pod, etc.</description>
+      <description>&lt;p&gt;A Pod would be the smallest deployable unit one can create and manage inside Kubernetes(K8s). In practice, rarely you create a Pod directly.
+Instead, one would create a Deployment, a StatefulSet, a DaemonSet, a Job, or a CronJob. These are higher-level constructs that would create
+Pods for you.&lt;/p&gt;
+&lt;p&gt;Here I&amp;rsquo;m covering common tasks that one would do with a Pod in daily work, like getting logs, opening a shell inside a container, debugging a Pod, etc.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Deploying Database Changes For Microservices</title>
       <link>https://rnemet.dev/posts/k8s/deploy-liquibase/</link>
       <pubDate>Sat, 12 Feb 2022 20:14:05 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k8s/deploy-liquibase/</guid>
-      <description>When a service works with a database its core is tied with the database schema. Usually, that means that service models are represented in the database. Usually as tables, but not necessary.
-Anyway, from that comes a requirement to update database schema when the core of service is changed. If you version your service then you should version your database schema as well. For this purpose, the Liquibase is a good tool(or at least one that I like).</description>
+      <description>&lt;p&gt;When a service works with a database its core is tied with the database schema. Usually, that means
+that service models are represented in the database. Usually as tables, but not necessary.&lt;/p&gt;
+&lt;p&gt;Anyway, from that comes a requirement to update database schema when the core of service is changed.
+If you version your service then you should version your database schema as well. For this purpose,
+the &lt;a href=&#34;https://liquibase.org/&#34;&gt;Liquibase&lt;/a&gt; is a good tool(or at least one that I like). In this example
+I use the &lt;a href=&#34;https://www.postgresql.org/&#34;&gt;Postgres&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kubernetes in the bottle: k3d and k3s</title>
       <link>https://rnemet.dev/posts/k3d/</link>
       <pubDate>Thu, 11 Mar 2021 22:40:14 +0100</pubDate>
-      
       <guid>https://rnemet.dev/posts/k3d/</guid>
-      <description>Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with. But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.
-What is k3s The K3s is lightweight k8s by the rancher for Linux. K3s is intended to work with low resources and IoT devices.</description>
+      <description>&lt;p&gt;Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with.
+But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-k3shttpsk3sio&#34;&gt;What is &lt;a href=&#34;https://k3s.io/&#34;&gt;k3s&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The K3s is lightweight k8s by &lt;a href=&#34;https://rancher.com/&#34;&gt;the rancher&lt;/a&gt; for Linux. K3s is intended to work with low resources and IoT devices.
+So, it can easily run on laptops. It is packed as a single binary so it is easy to setup. It requires to have installed docker, as nodes will be run inside containers.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

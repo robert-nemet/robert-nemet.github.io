@@ -1,33 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>shell on DevCube</title>
+    <title>Shell on DevCube</title>
     <link>https://rnemet.dev/tags/shell/</link>
-    <description>Recent content in shell on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Shell on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Feb 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rnemet.dev/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Feb 2021 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to schedule task with crontab</title>
       <link>https://rnemet.dev/posts/schedule_tasks/</link>
       <pubDate>Mon, 15 Feb 2021 11:30:03 +0000</pubDate>
-      
       <guid>https://rnemet.dev/posts/schedule_tasks/</guid>
-      <description>I&amp;rsquo;m keeping notes in simple text files. Imho, this is a straightforward solution that I can control. I need to be able to version my changes and to keep backup as well. For that, I&amp;rsquo;m using git. But I have to make commits and push changes periodically. I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the crontab.
-Crontab ..is a file used by cron. It is a time-based job scheduler available in Unix-like OS.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m keeping notes in simple text files. Imho, this is a  straightforward solution that I can control. I need to be able to version my changes and to keep backup as well. For that, I&amp;rsquo;m using git.
+But I have to make commits and push changes periodically.
+I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the &lt;em&gt;crontab&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;crontab&#34;&gt;Crontab&lt;/h2&gt;
+&lt;p&gt;..is a file used by &lt;em&gt;cron&lt;/em&gt;. It is a time-based job scheduler available in Unix-like OS. It usually looks like this:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to rename multiple files</title>
       <link>https://rnemet.dev/posts/rename_files/</link>
       <pubDate>Fri, 01 Jan 2021 11:30:03 +0000</pubDate>
-      
       <guid>https://rnemet.dev/posts/rename_files/</guid>
-      <description>A simple problem:
-Rename files with extension xyz which names ends with file. They need to start with document- and have extension txt For example if a file is 1-file.xyz it should be renamed to document-1.txt
-From this:
-&amp;gt; ls -al total 0 drwxr-xr-x 12 owner staff 384 Jan 1 19:26 . drwxr-xr-x 7 owner staff 224 Oct 23 11:32 .. -rw-r--r-- 1 owner staff 0 Jan 1 19:26 1-file.xyz -rw-r--r-- 1 owner staff 0 Jan 1 19:26 10-file.</description>
+      <description>&lt;p&gt;A simple problem:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rename files with extension &lt;code&gt;xyz&lt;/code&gt; which names ends with &lt;code&gt;file&lt;/code&gt;. They need to start with &lt;code&gt;document-&lt;/code&gt; and have extension &lt;code&gt;txt&lt;/code&gt;
+For example if a file is &lt;code&gt;1-file.xyz&lt;/code&gt; it should be renamed to &lt;code&gt;document-1.txt&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From this:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-cli&#34; data-lang=&#34;cli&#34;&gt;&amp;gt; ls -al
+total 0
+drwxr-xr-x  12 owner  staff  384 Jan  1 19:26 .
+drwxr-xr-x   7 owner  staff  224 Oct 23 11:32 ..
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 1-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 10-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 2-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 3-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 4-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 5-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 6-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 7-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 8-file.xyz
+-rw-r--r--   1 owner  staff    0 Jan  1 19:26 9-file.xyz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to this:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
