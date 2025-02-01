@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>k8s-basics on DevCube</title>
-    <link>https://rnemet.dev/tags/k8s-basics/</link>
-    <description>Recent content in k8s-basics on DevCube</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Mar 2021 10:17:02 +0100</lastBuildDate><atom:link href="https://rnemet.dev/tags/k8s-basics/index.xml" rel="self" type="application/rss+xml" />
+    <title>K8s-Basics on DevCube</title>
+    <link>http://localhost:1313/tags/k8s-basics/</link>
+    <description>Recent content in K8s-Basics on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Mar 2021 10:17:02 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/k8s-basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pod</title>
-      <link>https://rnemet.dev/posts/k8s/pod/</link>
+      <link>http://localhost:1313/posts/k8s/pod/</link>
       <pubDate>Sun, 21 Mar 2021 10:17:02 +0100</pubDate>
-      
-      <guid>https://rnemet.dev/posts/k8s/pod/</guid>
-      <description>..is the smallest deployable unit one can create and manage inside Kubernetes(K8s). A Pod can have one or more running containers, so it is a set of running containers.
-What is a container? A container image is a binary containing an application you created and all that needs for its running like system and application libraries, configuration files, etc. When you run a container image it becomes container. You can imagine a container image as a software-package but when you run it becomes container.</description>
+      <guid>http://localhost:1313/posts/k8s/pod/</guid>
+      <description>&lt;p&gt;..is the smallest deployable unit one can create and manage inside Kubernetes(K8s). A Pod can have one or more running containers, so it is a set of running containers.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-container&#34;&gt;What is a container?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;A container image&lt;/strong&gt; is a binary containing an application you created and all that needs for its running like system and application libraries, configuration files, etc.
+When you run &lt;strong&gt;a container image&lt;/strong&gt; it becomes &lt;strong&gt;container&lt;/strong&gt;. You can imagine &lt;strong&gt;a container image&lt;/strong&gt; as a software-package but when you run it becomes &lt;strong&gt;container&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

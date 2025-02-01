@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Containers on DevCube</title>
+    <link>https://rnemet.dev/tags/containers/</link>
+    <description>Recent content in Containers on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Feb 2025 20:46:44 +0200</lastBuildDate>
+    <atom:link href="https://rnemet.dev/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes: Containers, Pods and Deployments</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_containers_pods_deployments/</link>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_containers_pods_deployments/</guid>
+      <description>&lt;p&gt;This post is the second part of the series about Kubernetes. In the &lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro&#34;&gt;first part&lt;/a&gt;,
+we introduced the K8s and its basic concepts.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Before you start creating services or scaling apps, it&amp;rsquo;s essential to understand
+the core components of Kubernetes. This post walks you through pods, containers,
+and deployments—what they are, how they work, and how they come together to keep
+your apps running smoothly.&lt;/p&gt;
+&lt;h2 id=&#34;local-setup&#34;&gt;Local Setup&lt;/h2&gt;
+&lt;p&gt;To taste K8s, you do not need access to some fancy remote platform. You can test
+and play with it on your own machine. Right now, there are a lot of solutions that
+can help you run K8s locally:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

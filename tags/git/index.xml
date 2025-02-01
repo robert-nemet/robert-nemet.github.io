@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on DevCube</title>
+    <link>http://localhost:1313/tags/git/</link>
+    <description>Recent content in Git on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Dec 2019 22:09:12 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Git Commands</title>
+      <link>http://localhost:1313/posts/daily_git/</link>
+      <pubDate>Wed, 18 Dec 2019 22:09:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/daily_git/</guid>
+      <description>git for every day</description>
+    </item>
+  </channel>
+</rss>

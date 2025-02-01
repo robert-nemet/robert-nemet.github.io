@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on DevCube</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on DevCube</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Dec 2019 07:11:27 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I want to share this post with my friends with one click</title>
+      <link>http://localhost:1313/posts/hugo_share_post/</link>
+      <pubDate>Sat, 21 Dec 2019 07:11:27 +0100</pubDate>
+      <guid>http://localhost:1313/posts/hugo_share_post/</guid>
+      <description>How I added share buttons to my blog posts</description>
+    </item>
+  </channel>
+</rss>

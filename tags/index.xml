@@ -6,13 +6,48 @@
     <description>Recent content in Tags on DevCube</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jan 2025 20:46:44 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 20:46:44 +0200</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basics</title>
       <link>https://rnemet.dev/tags/basics/</link>
-      <pubDate>Tue, 28 Jan 2025 20:46:44 +0200</pubDate>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
       <guid>https://rnemet.dev/tags/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://rnemet.dev/tags/containers/</link>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/tags/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deployments</title>
+      <link>https://rnemet.dev/tags/deployments/</link>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/tags/deployments/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K8s</title>
+      <link>https://rnemet.dev/tags/k8s/</link>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/tags/k8s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://rnemet.dev/tags/kubernetes/</link>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pods</title>
+      <link>https://rnemet.dev/tags/pods/</link>
+      <pubDate>Sat, 01 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/tags/pods/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +55,6 @@
       <link>https://rnemet.dev/tags/introduction/</link>
       <pubDate>Tue, 28 Jan 2025 20:46:44 +0200</pubDate>
       <guid>https://rnemet.dev/tags/introduction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>K8s</title>
-      <link>https://rnemet.dev/tags/k8s/</link>
-      <pubDate>Tue, 28 Jan 2025 20:46:44 +0200</pubDate>
-      <guid>https://rnemet.dev/tags/k8s/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://rnemet.dev/tags/kubernetes/</link>
-      <pubDate>Tue, 28 Jan 2025 20:46:44 +0200</pubDate>
-      <guid>https://rnemet.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
