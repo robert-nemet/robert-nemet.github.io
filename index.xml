@@ -4,9 +4,9 @@
     <title>DevCube</title>
     <link>https://rnemet.dev/</link>
     <description>Recent content on DevCube</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Feb 2025 20:46:44 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 20:46:44 +0200</lastBuildDate>
     <atom:link href="https://rnemet.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes: Containers, Pods and Deployments</title>
@@ -34,11 +34,8 @@ can help you run K8s locally:&lt;/p&gt;</description>
 will explain Kubernetes, why it matters, and how it fits into the modern
 application landscape. By the end, you&amp;rsquo;ll understand its core purpose and how it
 can make your development life more manageable.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-kubernetes-and-why-should-you-care&#34;&gt;What is Kubernetes and Why Should You Care?&lt;/h2&gt;
-&lt;p&gt;Kubernetes. The name alone sounds like something out of a sci-fi novel. And in some
-ways, it is. It&amp;rsquo;s a system designed to orchestrate fleets of containers across vast,
-distributed landscapes. But at its core, Kubernetes is here to solve a real human
-problem: running applications reliably without losing your mind. So they say.&lt;/p&gt;</description>
+&lt;p&gt;The target audience for this post is developers who are new to Kubernetes or those
+who work on a product that uses Kubernetes but do not have a deep understanding of it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automating Pull Request Reviews With CodiumAI PR-Agent</title>
@@ -383,8 +380,7 @@ I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the &lt;em&gt
       <description>&lt;p&gt;A simple problem:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Rename files with extension &lt;code&gt;xyz&lt;/code&gt; which names ends with &lt;code&gt;file&lt;/code&gt;. They need to start with &lt;code&gt;document-&lt;/code&gt; and have extension &lt;code&gt;txt&lt;/code&gt;
-For example if a file is &lt;code&gt;1-file.xyz&lt;/code&gt; it should be renamed to &lt;code&gt;document-1.txt&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+For example if a file is &lt;code&gt;1-file.xyz&lt;/code&gt; it should be renamed to &lt;code&gt;document-1.txt&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;From this:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-cli&#34; data-lang=&#34;cli&#34;&gt;&amp;gt; ls -al
 total 0
@@ -412,6 +408,22 @@ drwxr-xr-x   7 owner  staff  224 Oct 23 11:32 ..
 &lt;p&gt;I’m sharing things that I worked on. If you are interested subscribe to not miss new posts in the newsletter and on my website. If you like it please share and let me
 know. If you do not like it let me know why.&lt;/p&gt;
 &lt;p&gt;I am especially passionate about: software development with Java and Go. I’m also interested in DevOps, CI/CD, and cloud-native applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes: Exposing Services and Horizontal Pod Autoscaler</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</link>
+      <pubDate>Thu, 06 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</guid>
+      <description>&lt;p&gt;This post is the third part of the series about Kubernetes for beginners. In the
+&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt2&#34;&gt;second part&lt;/a&gt;, I introduced the K8s and its basic
+components. In the second part, I discussed containers, pods, and deployments.
+This post will discuss services(SVC) and horizontal pod autoscaler(HPA).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In this short post, I will discuss how to expose your services to the outside world
+and scale your applications based on the load.&lt;/p&gt;
+&lt;h2 id=&#34;exposing-deployments-services&#34;&gt;Exposing Deployments: Services&lt;/h2&gt;
+&lt;p&gt;When you create a Deployment, you&amp;rsquo;ll get Pods running your app. So, start local K8s
+cluster and deploy an app:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

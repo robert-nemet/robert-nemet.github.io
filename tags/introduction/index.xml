@@ -4,7 +4,7 @@
     <title>Introduction on DevCube</title>
     <link>https://rnemet.dev/tags/introduction/</link>
     <description>Recent content in Introduction on DevCube</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 28 Jan 2025 20:46:44 +0200</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +17,8 @@
 will explain Kubernetes, why it matters, and how it fits into the modern
 application landscape. By the end, you&amp;rsquo;ll understand its core purpose and how it
 can make your development life more manageable.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-kubernetes-and-why-should-you-care&#34;&gt;What is Kubernetes and Why Should You Care?&lt;/h2&gt;
-&lt;p&gt;Kubernetes. The name alone sounds like something out of a sci-fi novel. And in some
-ways, it is. It&amp;rsquo;s a system designed to orchestrate fleets of containers across vast,
-distributed landscapes. But at its core, Kubernetes is here to solve a real human
-problem: running applications reliably without losing your mind. So they say.&lt;/p&gt;</description>
+&lt;p&gt;The target audience for this post is developers who are new to Kubernetes or those
+who work on a product that uses Kubernetes but do not have a deep understanding of it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

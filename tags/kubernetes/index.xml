@@ -4,9 +4,9 @@
     <title>Kubernetes on DevCube</title>
     <link>https://rnemet.dev/tags/kubernetes/</link>
     <description>Recent content in Kubernetes on DevCube</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Feb 2025 20:46:44 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 20:46:44 +0200</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes: Containers, Pods and Deployments</title>
@@ -34,11 +34,8 @@ can help you run K8s locally:&lt;/p&gt;</description>
 will explain Kubernetes, why it matters, and how it fits into the modern
 application landscape. By the end, you&amp;rsquo;ll understand its core purpose and how it
 can make your development life more manageable.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-kubernetes-and-why-should-you-care&#34;&gt;What is Kubernetes and Why Should You Care?&lt;/h2&gt;
-&lt;p&gt;Kubernetes. The name alone sounds like something out of a sci-fi novel. And in some
-ways, it is. It&amp;rsquo;s a system designed to orchestrate fleets of containers across vast,
-distributed landscapes. But at its core, Kubernetes is here to solve a real human
-problem: running applications reliably without losing your mind. So they say.&lt;/p&gt;</description>
+&lt;p&gt;The target audience for this post is developers who are new to Kubernetes or those
+who work on a product that uses Kubernetes but do not have a deep understanding of it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building Docker Images Smaller, Rootless and Non-Shell for Kubernetes</title>
@@ -103,6 +100,22 @@ But what if you want to have your K8s. On your laptop, for fun or to learn somet
 &lt;h2 id=&#34;what-is-k3shttpsk3sio&#34;&gt;What is &lt;a href=&#34;https://k3s.io/&#34;&gt;k3s&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The K3s is lightweight k8s by &lt;a href=&#34;https://rancher.com/&#34;&gt;the rancher&lt;/a&gt; for Linux. K3s is intended to work with low resources and IoT devices.
 So, it can easily run on laptops. It is packed as a single binary so it is easy to setup. It requires to have installed docker, as nodes will be run inside containers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes: Exposing Services and Horizontal Pod Autoscaler</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</link>
+      <pubDate>Thu, 06 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</guid>
+      <description>&lt;p&gt;This post is the third part of the series about Kubernetes for beginners. In the
+&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt2&#34;&gt;second part&lt;/a&gt;, I introduced the K8s and its basic
+components. In the second part, I discussed containers, pods, and deployments.
+This post will discuss services(SVC) and horizontal pod autoscaler(HPA).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In this short post, I will discuss how to expose your services to the outside world
+and scale your applications based on the load.&lt;/p&gt;
+&lt;h2 id=&#34;exposing-deployments-services&#34;&gt;Exposing Deployments: Services&lt;/h2&gt;
+&lt;p&gt;When you create a Deployment, you&amp;rsquo;ll get Pods running your app. So, start local K8s
+cluster and deploy an app:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

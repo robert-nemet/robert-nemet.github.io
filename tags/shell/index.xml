@@ -4,7 +4,7 @@
     <title>Shell on DevCube</title>
     <link>https://rnemet.dev/tags/shell/</link>
     <description>Recent content in Shell on DevCube</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Feb 2021 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/shell/index.xml" rel="self" type="application/rss+xml" />
@@ -27,8 +27,7 @@ I&amp;rsquo;m delegating this simple, dull, and repetitive toil to the &lt;em&gt
       <description>&lt;p&gt;A simple problem:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Rename files with extension &lt;code&gt;xyz&lt;/code&gt; which names ends with &lt;code&gt;file&lt;/code&gt;. They need to start with &lt;code&gt;document-&lt;/code&gt; and have extension &lt;code&gt;txt&lt;/code&gt;
-For example if a file is &lt;code&gt;1-file.xyz&lt;/code&gt; it should be renamed to &lt;code&gt;document-1.txt&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+For example if a file is &lt;code&gt;1-file.xyz&lt;/code&gt; it should be renamed to &lt;code&gt;document-1.txt&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;From this:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-cli&#34; data-lang=&#34;cli&#34;&gt;&amp;gt; ls -al
 total 0
