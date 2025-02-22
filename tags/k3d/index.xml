@@ -4,7 +4,7 @@
     <title>K3d on DevCube</title>
     <link>https://rnemet.dev/tags/k3d/</link>
     <description>Recent content in K3d on DevCube</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.144.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Mar 2021 22:40:14 +0100</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/k3d/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +15,7 @@
       <guid>https://rnemet.dev/posts/k3d/</guid>
       <description>&lt;p&gt;Everyone wants to play with the Kubernetes(K8s). There are many options from Google, AWS, Heroku, etc. They offer free tiers that anyone can play with.
 But what if you want to have your K8s. On your laptop, for fun or to learn something new, without any restrictions.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-k3shttpsk3sio&#34;&gt;What is &lt;a href=&#34;https://k3s.io/&#34;&gt;k3s&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-k3s&#34;&gt;What is &lt;a href=&#34;https://k3s.io/&#34;&gt;k3s&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The K3s is lightweight k8s by &lt;a href=&#34;https://rancher.com/&#34;&gt;the rancher&lt;/a&gt; for Linux. K3s is intended to work with low resources and IoT devices.
 So, it can easily run on laptops. It is packed as a single binary so it is easy to setup. It requires to have installed docker, as nodes will be run inside containers.&lt;/p&gt;</description>
     </item>
