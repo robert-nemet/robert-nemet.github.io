@@ -4,10 +4,51 @@
     <title>K8s on DevCube</title>
     <link>https://rnemet.dev/tags/k8s/</link>
     <description>Recent content in K8s on DevCube</description>
-    <generator>Hugo -- 0.144.2</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Feb 2025 19:07:47 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 19:23:56 +0100</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes tools: Kubectl Part 2</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_kubectl_pt2/</link>
+      <pubDate>Mon, 03 Mar 2025 19:23:56 +0100</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_kubectl_pt2/</guid>
+      <description>&lt;p&gt;This post is the fifth part of the series about Kubernetes for beginners. In the
+&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt4&#34;&gt;fourth part&lt;/a&gt;, I started to write about the Kubernetes
+Swiss army knife: &lt;code&gt;kubectl&lt;/code&gt;. I covered ways how to find the components you are looking
+for. In this episode, I&amp;rsquo;ll show you how you can gather more information about Kubernetes
+components, focusing on status and logs. This can be useful when debugging your
+application and trying to figure out what&amp;rsquo;s going on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes tool: Kubectl</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_local_and_kubectl/</link>
+      <pubDate>Mon, 17 Feb 2025 19:07:47 +0100</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_local_and_kubectl/</guid>
+      <description>&lt;p&gt;This post is the fourth part of the series about Kubernetes for beginners. In the
+&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt3&#34;&gt;third part&lt;/a&gt;, I wrote about services(SVC) and horizontal
+pod autoscaler(HPA). This post will introduce you to the Kubernetes tool: &lt;code&gt;kubectl&lt;/code&gt;.
+Also, all examples were shallow so far; to get you started with Kubernetes, you need
+to get a feeling of the K8s and their components. In this episode, I explain the
+connections between Deployments and Pods, too.
+Let&amp;rsquo;s start&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes: Exposing Services and Horizontal Pod Autoscaler</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</link>
+      <pubDate>Thu, 06 Feb 2025 20:46:44 +0200</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</guid>
+      <description>&lt;p&gt;This post is the third part of the series about Kubernetes for beginners. In the
+&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt2&#34;&gt;second part&lt;/a&gt;, I introduced the K8s and its basic
+components. In the second part, I discussed containers, pods, and deployments.
+This post will discuss services(SVC) and horizontal pod autoscaler(HPA).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In this short post, I will discuss how to expose your services to the outside world
+and scale your applications based on the load.&lt;/p&gt;
+&lt;h2 id=&#34;exposing-deployments-services&#34;&gt;Exposing Deployments: Services&lt;/h2&gt;
+&lt;p&gt;When you create a Deployment, you&amp;rsquo;ll get Pods running your app. So, start local K8s
+cluster and deploy an app:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kubernetes: Containers, Pods and Deployments</title>
       <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_containers_pods_deployments/</link>
@@ -111,35 +152,6 @@ But what if you want to have your K8s. On your laptop, for fun or to learn somet
 &lt;h2 id=&#34;what-is-k3s&#34;&gt;What is &lt;a href=&#34;https://k3s.io/&#34;&gt;k3s&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The K3s is lightweight k8s by &lt;a href=&#34;https://rancher.com/&#34;&gt;the rancher&lt;/a&gt; for Linux. K3s is intended to work with low resources and IoT devices.
 So, it can easily run on laptops. It is packed as a single binary so it is easy to setup. It requires to have installed docker, as nodes will be run inside containers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kubernetes tool: Kubectl</title>
-      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_local_and_kubectl/</link>
-      <pubDate>Mon, 17 Feb 2025 19:07:47 +0100</pubDate>
-      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_local_and_kubectl/</guid>
-      <description>&lt;p&gt;This post is the fourth part of the series about Kubernetes for beginners. In the
-&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt3&#34;&gt;third part&lt;/a&gt;, I wrote about services(SVC) and horizontal
-pod autoscaler(HPA). This post will introduce you to the Kubernetes tool: &lt;code&gt;kubectl&lt;/code&gt;.
-Also, all examples were shallow so far; to get you started with Kubernetes, you need
-to get a feeling of the K8s and their components. In this episode, I explain the
-connections between Deployments, Pods, Services, and Horizontal Pod Autoscaler.
-Let&amp;rsquo;s start&amp;hellip;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kubernetes: Exposing Services and Horizontal Pod Autoscaler</title>
-      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</link>
-      <pubDate>Thu, 06 Feb 2025 20:46:44 +0200</pubDate>
-      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_svc_hpa/</guid>
-      <description>&lt;p&gt;This post is the third part of the series about Kubernetes for beginners. In the
-&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt2&#34;&gt;second part&lt;/a&gt;, I introduced the K8s and its basic
-components. In the second part, I discussed containers, pods, and deployments.
-This post will discuss services(SVC) and horizontal pod autoscaler(HPA).&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;In this short post, I will discuss how to expose your services to the outside world
-and scale your applications based on the load.&lt;/p&gt;
-&lt;h2 id=&#34;exposing-deployments-services&#34;&gt;Exposing Deployments: Services&lt;/h2&gt;
-&lt;p&gt;When you create a Deployment, you&amp;rsquo;ll get Pods running your app. So, start local K8s
-cluster and deploy an app:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

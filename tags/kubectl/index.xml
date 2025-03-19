@@ -4,10 +4,22 @@
     <title>Kubectl on DevCube</title>
     <link>https://rnemet.dev/tags/kubectl/</link>
     <description>Recent content in Kubectl on DevCube</description>
-    <generator>Hugo -- 0.144.2</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Feb 2025 19:07:47 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 19:23:56 +0100</lastBuildDate>
     <atom:link href="https://rnemet.dev/tags/kubectl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes tools: Kubectl Part 2</title>
+      <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_kubectl_pt2/</link>
+      <pubDate>Mon, 03 Mar 2025 19:23:56 +0100</pubDate>
+      <guid>https://rnemet.dev/posts/practical_k8s/k8s_intro_kubectl_pt2/</guid>
+      <description>&lt;p&gt;This post is the fifth part of the series about Kubernetes for beginners. In the
+&lt;a href=&#34;https://rnemet.dev/practical_k8s/k8s_intro_pt4&#34;&gt;fourth part&lt;/a&gt;, I started to write about the Kubernetes
+Swiss army knife: &lt;code&gt;kubectl&lt;/code&gt;. I covered ways how to find the components you are looking
+for. In this episode, I&amp;rsquo;ll show you how you can gather more information about Kubernetes
+components, focusing on status and logs. This can be useful when debugging your
+application and trying to figure out what&amp;rsquo;s going on.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Kubernetes tool: Kubectl</title>
       <link>https://rnemet.dev/posts/practical_k8s/k8s_intro_local_and_kubectl/</link>
@@ -18,7 +30,7 @@
 pod autoscaler(HPA). This post will introduce you to the Kubernetes tool: &lt;code&gt;kubectl&lt;/code&gt;.
 Also, all examples were shallow so far; to get you started with Kubernetes, you need
 to get a feeling of the K8s and their components. In this episode, I explain the
-connections between Deployments, Pods, Services, and Horizontal Pod Autoscaler.
+connections between Deployments and Pods, too.
 Let&amp;rsquo;s start&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
